@@ -1,0 +1,36 @@
+name = mrregobeats
+description = Install profile for mrregobeats.com for use with SpireLight commerce.
+core = 7.x
+theme = mrregobeats
+
+; Install necessary core modules.
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = toolbar
+
+; Install contribs.
+dependencies[] = libraries
+dependencies[] = pathauto
+dependencies[] = entityreference
+dependencies[] = redirect
+dependencies[] = globalredirect
+dependencies[] = metatag
+dependencies[] = nocurrent_pass
+dependencies[] = webform
+
+; Install Features
+dependencies[] = boxes
+dependencies[] = features
+dependencies[] = strongarm
