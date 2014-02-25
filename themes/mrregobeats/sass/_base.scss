@@ -12,3 +12,17 @@
  * before adding any more specific customisations you ensure that as any new
  * features are added they will be correctly styled without any extra work.
  ******************************************************************************/
+h1 {
+	font-family: $header-font;
+	font-size: 1.6em;
+}	
+h2 {
+	@extend h1;
+	font-size: 1.2em;
+}
+h3 {
+	font-size: 1.1em;
+}
+body {
+	font-family: $body-font;
+}

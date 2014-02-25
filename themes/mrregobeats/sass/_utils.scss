@@ -15,3 +15,13 @@
  *      - Font sizes and families.
  *      - Layout and grid sizing.
  ******************************************************************************/
+@import "compass";
+@import "susy";
+@import url(http://fonts.googleapis.com/css?family=Roboto|Press+Start+2P);
+
+$header-font: 'Press Start 2P', cursive;
+$body-font: 'Roboto', sans-serif;
+
+$blue: #462DFF;
+$purple: #D10EE3;
+$grey: #242424;

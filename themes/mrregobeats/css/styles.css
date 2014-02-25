@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto|Press+Start+2P);
 /*******************************************************************************
  * style.scss
  *
@@ -39,6 +40,27 @@
  * before adding any more specific customisations you ensure that as any new
  * features are added they will be correctly styled without any extra work.
  ******************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_base\.scss}line{font-family:\0000315}}
+h1, h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.6em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_base\.scss}line{font-family:\0000319}}
+h2 {
+  font-size: 1.2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_base\.scss}line{font-family:\0000323}}
+h3 {
+  font-size: 1.1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_base\.scss}line{font-family:\0000326}}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 /*******************************************************************************
  * _layout.scss
  *
