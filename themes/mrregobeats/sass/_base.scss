@@ -15,6 +15,7 @@
 h1 {
 	font-family: $header-font;
 	font-size: 1.6em;
+	font-weight: normal;
 }	
 h2 {
 	@extend h1;
@@ -24,5 +25,26 @@ h3 {
 	font-size: 1.1em;
 }
 body {
+	background: url('../images/bg.png');
+	color: $white;
 	font-family: $body-font;
+}
+a {
+	color: $white;
+	text-decoration: none;
+	&:hover {
+		color: $purple;
+	}
+	&.active {
+		color: $purple;
+	}
+}
+input[type="submit"] {
+	font-family: $body-font;
+	cursor: pointer;
+	background: $purple;
+	color: $white;
+	border: none;
+	padding: 0.5em 1em;
+	font-size: 1em;
 }

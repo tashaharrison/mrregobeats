@@ -52,7 +52,7 @@ $desk: 70em 16; // At 70em use 16 columns.
     clear: both;
   }
   .l-branding {
-    @include span-columns(3, 12); // Span 3 out of 12 columns.
+    @include span-columns(12, 12); // Span 12 out of 12 columns.
   }
   .l-region--navigation {
     @include span-columns(9 omega, 12); // Span the last (omega) 9 columns of 12.
@@ -86,10 +86,10 @@ $desk: 70em 16; // At 70em use 16 columns.
     // @include susy-grid-background; // Show the columns for debugging.
   }
 	.l-region--header {
-    clear: both;
+		clear: both;
 	}
   .l-branding {
-    @include span-columns(3, 16); // Span 3 out of 16 columns.
+    @include span-columns(16, 16); // Span 16 out of 16 columns.
   }
   .l-region--navigation {
     @include span-columns(13 omega, 16); // Span the last (omega) 13 columns of 16.

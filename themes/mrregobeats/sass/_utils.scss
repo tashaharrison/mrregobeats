@@ -18,6 +18,10 @@
 @import "compass";
 @import "susy";
 @import url(http://fonts.googleapis.com/css?family=Roboto|Press+Start+2P);
+@import "spr/*.png";
+
+$tab: 44em 12; // At 44em use 12 columns.
+$desk: 70em 16; // At 70em use 16 columns.
 
 $header-font: 'Press Start 2P', cursive;
 $body-font: 'Roboto', sans-serif;
@@ -25,3 +29,7 @@ $body-font: 'Roboto', sans-serif;
 $blue: #462DFF;
 $purple: #D10EE3;
 $grey: #242424;
+$dark-grey: #161616;
+$light-grey: #636363;
+$white: #ffffff;
+$black: #000000;

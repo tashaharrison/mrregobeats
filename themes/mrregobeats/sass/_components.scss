@@ -37,3 +37,218 @@
  *       CSS. Exposed filter forms, views pagers and other views elements are
  *       also good candidates for components.
  ******************************************************************************/
+/**************************
+	General
+***************************/
+.l-page {
+	background: $grey;
+}
+.l-header-wrapper {
+	background: $blue;
+}
+/**************************
+	Header
+***************************/
+.l-branding {
+	margin-bottom: 0.7em;
+	text-align: center;
+}
+.l-region--header {
+	.menu {
+		text-align: center;
+		padding: 0;
+		a {
+			padding: 0 0.9em;
+		}
+	}
+}
+/**************************
+	Menu
+***************************/
+.menu {
+	.leaf {
+		display: inline-block;
+		list-style-image: none;
+		list-style-type: none;
+		padding: 0 1em;
+		a {
+			font-family: $header-font;
+			font-size: 0.9em;
+		}
+	}
+}
+/**************************
+	Frontpage
+***************************/
+.front {
+	h1 {
+		text-align: center;
+	}
+	.l-main {
+		padding: 0;
+		.view-homepage {
+			.attachment {
+				background: $black;
+				padding: 0.2em 1em 1em;
+				.views-row {
+					text-align: center;
+					display: inline-block;
+					background: $light-grey;
+					padding: 1em;
+					margin: 1em;
+					.commerce-product-field-commerce-price {
+						font-family: $header-font;
+						padding-bottom: 0.5em;
+					}
+				}
+			}
+		}
+	}
+}
+/**************************
+	The Player
+***************************/
+/* The following is resetting the module's css */
+div.jp-interface, div.jp-playlist {
+	border: none;
+	background-color: transparent;
+}
+.view-content {
+	.jp-audio {
+		margin: 0 auto;
+		width: 565px;
+		.jp-type-playlist {
+			background: url('../images/mpc2000-player.png') no-repeat 0 0;
+			color: $black;
+			font-family: $header-font;
+			height: 417px;
+			width: 575px;
+			a {
+				height: 25px;
+				width: 38px;
+			}
+			.jp-play {
+				left: 334px;
+				top: 165px;
+				@include spr-sprite("play");
+				&:hover {
+					@include spr-sprite("play-hover");
+				}
+			}
+			.jp-pause {
+				left: 334px;
+				top: 165px;
+				@include spr-sprite("pause");
+				&:hover {
+					@include spr-sprite("pause-hover");
+				}
+			}
+			.jp-stop {
+				left: 382px;
+				top: 164px;
+				@include spr-sprite("stop");
+				&:hover {
+					@include spr-sprite("stop-hover");
+				}
+			}
+			.jp-previous {
+				left: 336px;
+				top: 212px;
+				@include spr-sprite("previous");
+				&:hover {
+					@include spr-sprite("previous-hover");
+				}
+			}
+			.jp-next {
+				left: 381px;
+				top: 212px;
+				@include spr-sprite("next");
+				&:hover {
+					@include spr-sprite("next-hover");
+				}
+			}
+			.jp-progress {
+				display: none;
+			}
+			.jp-current-time {
+				left: 193px;
+				top: 47px;
+			}
+			.jp-duration {
+				left: 134px;	
+				top: 67px;	
+				font-size: 0.5em;
+			}
+			.jp-playlist-current {
+				list-style-type: none;
+			}
+			.jp-playlist {
+				position: relative;
+				li {
+					display: none;
+					&.jp-playlist-current {
+						display: block;
+						border-bottom: none;
+						position: absolute;
+						top: -40px;
+						left: 86px;
+						width: 85px;
+						font-size: 0.9em;
+					}
+					a {
+						color: $black;
+					}
+				}
+			}
+			.jp-volume-bar {
+				display: none!important;
+			}
+			.jp-mute {
+				display: none!important;
+			}
+		}
+	}
+}
+.attachment {
+	.view-content {
+		.jp-audio {
+			margin: 0;
+			.jp-type-playlist {
+				background: $dark-grey;
+				border: 3px solid $light-grey;
+				color: $white;
+				height: 50px;
+				width: 190px;
+				.jp-play {
+					top: 10px;
+					left: 0px;
+				}
+				.jp-pause {
+					top: 10px;
+					left: 0px;
+				}
+				.jp-stop {
+					top: 10px;
+					left: 35px;
+				}
+				.jp-previous {
+					display: none;
+				}
+				.jp-next {
+					display: none;
+				}
+				.jp-duration {
+					left: 53px;	
+					top: 26px;	
+				}
+				.jp-current-time {
+					left: 112px;
+					top: 8px;
+				}
+				.jp-playlist {
+					display: none;
+				}
+			}
+		}
+	}
+}
