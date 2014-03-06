@@ -46,6 +46,9 @@
 .l-header-wrapper {
 	background: $blue;
 }
+.block--views {
+	padding: 0.5em 1em;
+}
 /**************************
 	Header
 ***************************/
@@ -88,7 +91,7 @@
 		padding: 0;
 		.view-homepage {
 			.attachment {
-				background: $black;
+				background: $dark-grey;
 				padding: 0.2em 1em 1em;
 				.views-row {
 					text-align: center;
@@ -103,6 +106,34 @@
 				}
 			}
 		}
+	}
+	#block-views-blog-block-1 {
+		h2 {
+			text-align: left;
+		}
+		.views-row {
+			background: $light-grey;
+			padding: 0.2em;
+			margin-bottom: 1em;
+			.views-field-nothing {
+				@include spr-sprite("news");
+				height: 65px;
+				width: 72px;
+				float: left;
+				padding: 0.2em 0.5em;
+			}
+			h3 {
+				margin: 0.2em 0;
+			}
+			p {
+				margin: 0.2em 0;
+			}
+		}
+	}
+	#block-views-about-us-homepage-block-block {
+		background: $dark-grey;
+		border: 3px solid $light-grey;
+		margin: 0 1em;
 	}
 }
 /**************************
