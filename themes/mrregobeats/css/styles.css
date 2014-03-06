@@ -103,6 +103,22 @@ input[type="submit"] {
  * components should not be placed here and should instead be kept with the
  * relevant SCSS for that component.
  ******************************************************************************/
+/**************************
+	Frontpage
+***************************/
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\0000313}}
+  #block-views-blog-block-1 {
+    width: 43.03797%;
+    float: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\0000317}}
+  #block-views-about-us-homepage-block-block {
+    width: 48.2%;
+    float: left;
+  }
+}
 /*******************************************************************************
  * _components.scss
  *
@@ -231,7 +247,7 @@ input[type="submit"] {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003114}}
 .front #block-views-blog-block-1 .views-row {
   background: #636363;
-  padding: 0.2em;
+  padding: 0.2em 0.5em 0.3em;
   margin-bottom: 1em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003118}}
@@ -254,7 +270,7 @@ input[type="submit"] {
 .front #block-views-about-us-homepage-block-block {
   background: #161616;
   border: 3px solid #636363;
-  margin: 0 1em;
+  margin: 1em;
 }
 
 /**************************

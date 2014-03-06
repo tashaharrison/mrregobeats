@@ -113,7 +113,7 @@
 		}
 		.views-row {
 			background: $light-grey;
-			padding: 0.2em;
+			padding: 0.2em 0.5em 0.3em;
 			margin-bottom: 1em;
 			.views-field-nothing {
 				@include spr-sprite("news");
@@ -133,7 +133,7 @@
 	#block-views-about-us-homepage-block-block {
 		background: $dark-grey;
 		border: 3px solid $light-grey;
-		margin: 0 1em;
+		margin: 1em;
 	}
 }
 /**************************

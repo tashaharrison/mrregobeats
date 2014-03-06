@@ -6,3 +6,16 @@
  * components should not be placed here and should instead be kept with the
  * relevant SCSS for that component.
  ******************************************************************************/
+/**************************
+	Frontpage
+***************************/
+@include at-breakpoint($desk) {
+	#block-views-blog-block-1 {
+		width: 43.03797%;
+		float: left;
+	}
+	#block-views-about-us-homepage-block-block {
+		width: 48.2%;
+		float: left;
+	}	
+}
