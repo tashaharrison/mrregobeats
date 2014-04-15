@@ -9,6 +9,12 @@
 /**************************
 	Frontpage
 ***************************/
+@include at-breakpoint($tab) {
+	.mrb-playlist {
+		width: 50%;
+		float: left;
+	}
+}
 @include at-breakpoint($desk) {
 	#block-views-blog-block-1 {
 		width: 43.03797%;

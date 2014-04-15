@@ -237,47 +237,9 @@ div.jp-interface, div.jp-playlist {
 			.jp-mute {
 				display: none!important;
 			}
-		}
-	}
-}
-.attachment {
-	.view-content {
-		.jp-audio {
-			margin: 0;
-			.jp-type-playlist {
-				background: $dark-grey;
-				border: 3px solid $light-grey;
-				color: $white;
-				height: 50px;
-				width: 190px;
-				.jp-play {
-					top: 10px;
-					left: 0px;
-				}
-				.jp-pause {
-					top: 10px;
-					left: 0px;
-				}
-				.jp-stop {
-					top: 10px;
-					left: 35px;
-				}
-				.jp-previous {
-					display: none;
-				}
-				.jp-next {
-					display: none;
-				}
-				.jp-duration {
-					left: 53px;	
-					top: 26px;	
-				}
-				.jp-current-time {
-					left: 112px;
-					top: 8px;
-				}
-				.jp-playlist {
-					display: none;
+			.mrb-playlist {
+				li {
+					display: block;
 				}
 			}
 		}

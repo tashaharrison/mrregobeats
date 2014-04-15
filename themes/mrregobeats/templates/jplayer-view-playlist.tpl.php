@@ -41,7 +41,6 @@
     <div id="<?php print $player_id; ?>_playlist" class="jp-playlist">
       <?php if ($mode == 'playlist' || $mode == 'single'): ?>
         <?php print $playlist; ?>
-		<div class="other"><?php print $playlist; ?></div>
       <?php else: ?>
         <ul>
           <li><?php print check_plain($label); ?></li>
@@ -50,5 +49,7 @@
     </div>
   </div>
 </div>
+<div class="mrb-playlist"><h2>The Playlist</h2>
+<?php print $playlist; ?></div>
 <?php print drupal_render($dynamic); ?>
 
