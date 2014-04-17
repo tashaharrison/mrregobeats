@@ -11,6 +11,8 @@
  * Implementation of hook_theme().
  */
  
+drupal_add_js (drupal_get_path('theme','mrregobeats') .'/js/script.js');
+ 
 include_once(drupal_get_path('module', 'jplayer') .'/includes/jplayer.theme.inc');
 
 function jplayer_mrregobeats() {

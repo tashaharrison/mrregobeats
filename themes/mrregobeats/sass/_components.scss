@@ -90,12 +90,19 @@
 	.l-main {
 		padding: 0;
 		.view-homepage {
+			.mrb-playlist {
+				li {
+					list-style-type: none;
+					padding: 0.1em 1em 2em;
+				}
+			}
 			.attachment {
-				background: $dark-grey;
-				padding: 0.2em 1em 1em;
+				padding: 1.3em 1em 1em;
+				width: 20%;
+				float: left;
 				.views-row {
 					text-align: center;
-					display: inline-block;
+					display: block;
 					background: $light-grey;
 					padding: 1em;
 					margin: 1em;
