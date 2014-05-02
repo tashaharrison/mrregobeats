@@ -49,7 +49,7 @@
     </div>
   </div>
 </div>
-<div class="mrb-playlist"><h2>The Playlist</h2>
-<?php print $playlist; ?></div>
+<div><h2>Playlist To Go Here</h2>
+</div>
 <?php print drupal_render($dynamic); ?>
 

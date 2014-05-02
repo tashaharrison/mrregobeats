@@ -73,10 +73,10 @@
 		display: inline-block;
 		list-style-image: none;
 		list-style-type: none;
-		padding: 0 1em;
+		padding: 0 0.6em;
 		a {
 			font-family: $header-font;
-			font-size: 0.9em;
+			font-size: 0.8em;
 		}
 	}
 }
@@ -97,13 +97,11 @@
 				}
 			}
 			.attachment {
-				padding: 1.3em 1em 1em;
-				width: 20%;
-				float: left;
+				margin-bottom: 12em;
 				.views-row {
-					text-align: center;
 					display: block;
-					background: $light-grey;
+					background: $dark-grey;
+					border: 3px solid $light-grey;
 					padding: 1em;
 					margin: 1em;
 					.commerce-product-field-commerce-price {
@@ -243,11 +241,6 @@ div.jp-interface, div.jp-playlist {
 			}
 			.jp-mute {
 				display: none!important;
-			}
-			.mrb-playlist {
-				li {
-					display: block;
-				}
 			}
 		}
 	}
