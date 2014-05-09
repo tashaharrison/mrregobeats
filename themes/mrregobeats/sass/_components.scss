@@ -96,8 +96,8 @@
 					padding: 0.1em 1em 2em;
 				}
 			}
-			.attachment {
-				margin-bottom: 12em;
+			.view-display-id-attachment_2 {
+				margin-bottom: 16em;
 				.views-row {
 					display: block;
 					background: $dark-grey;
@@ -216,23 +216,21 @@ div.jp-interface, div.jp-playlist {
 				font-size: 0.5em;
 			}
 			.jp-playlist-current {
-				list-style-type: none;
+				
 			}
 			.jp-playlist {
 				position: relative;
+				top: 16em;
+				color: $white;
 				li {
-					display: none;
 					&.jp-playlist-current {
-						display: block;
-						border-bottom: none;
-						position: absolute;
-						top: -40px;
-						left: 86px;
-						width: 85px;
-						font-size: 0.9em;
+						a {
+							color: $purple;
+						}
 					}
 					a {
-						color: $black;
+						color: $white;
+						font-size: 0.8em;
 					}
 				}
 			}

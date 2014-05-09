@@ -9,6 +9,10 @@
 /**************************
 	Frontpage
 ***************************/
+.view-homepage {
+	
+}
+
 @include at-breakpoint($tab) {
 	
 }
@@ -20,9 +24,29 @@
 	#block-views-about-us-homepage-block-block {
 		width: 48.2%;
 		float: left;
-	}	
+	}
+	.logged-in {
+		.view-homepage {
+			.view-display-id-attachment_2 {
+				.views-row-1 {
+					top: 0;
+				}
+				.views-row-2 {
+					top: 21em;
+				}
+				.views-row-3 {
+					top: 0;
+					right: 0;
+				}
+				.views-row-4 {
+					top: 21em;
+					right: 0;
+				}
+			}
+		}
+	}
 	.view-homepage {
-		.attachment {
+		.view-display-id-attachment_2 {
 			.views-row {
 				position: absolute;
 				width: 12%;
@@ -31,14 +55,14 @@
 				top: 19em;
 			}
 			.views-row-2 {
-				top: 37em;
+				top: 39em;
 			}
 			.views-row-3 {
 				top: 19em;
 				right: 21em;
 			}
 			.views-row-4 {
-				top: 37em;
+				top: 39em;
 				right: 21em;
 			}
 		}

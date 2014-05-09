@@ -13,6 +13,8 @@
       <div class="jp-video-play"></div>
       <?php endif; ?>
       <ul class="jp-controls">
+		<li><span class="jp-title"></span></li>
+		<li><?php print $fields['title']->content; ?></li>
         <li><a href="#" class="jp-play" tabindex="1">play</a></li>
         <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
         <li><a href="#" class="jp-stop" tabindex="1">stop</a></li>
@@ -39,17 +41,17 @@
     </div>
     
     <div id="<?php print $player_id; ?>_playlist" class="jp-playlist">
+	<h2>Try and Buy</h2>
       <?php if ($mode == 'playlist' || $mode == 'single'): ?>
         <?php print $playlist; ?>
       <?php else: ?>
         <ul>
-          <li><?php print check_plain($label); ?></li>
+         <li><?php print check_plain($label); ?></li>
         </ul>
-      <?php endif; ?>
+    <?php endif; ?>
     </div>
+	
   </div>
-</div>
-<div><h2>Playlist To Go Here</h2>
 </div>
 <?php print drupal_render($dynamic); ?>
 
