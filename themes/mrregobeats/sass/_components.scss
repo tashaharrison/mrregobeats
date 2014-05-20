@@ -104,10 +104,6 @@
 					border: 3px solid $light-grey;
 					padding: 1em;
 					margin: 1em;
-					.commerce-product-field-commerce-price {
-						font-family: $header-font;
-						padding-bottom: 0.5em;
-					}
 				}
 			}
 		}
@@ -257,6 +253,9 @@ div.jp-interface, div.jp-playlist {
 		td {
 			padding: 0.5em;
 			width: 120px;
+			&.views-field-field-audio-bpm {
+				width: 80px;
+			}
 		}
 		tr {
 			&.odd {
@@ -325,5 +324,14 @@ div.jp-interface, div.jp-playlist {
 				@include spr-sprite("beats-stop");
 			}
 		}
+	}
+}
+#block-views-kpi-block-block {
+	.views-row {
+		display: block;
+		background: $dark-grey;
+		border: 3px solid $light-grey;
+		padding: 1em;
+		margin: 1em;
 	}
 }

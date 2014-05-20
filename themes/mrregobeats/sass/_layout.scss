@@ -68,3 +68,25 @@
 		}
 	}
 }
+/**************************
+	Category Page
+***************************/
+@include at-breakpoint($desk) {
+	.section-buy-beats {
+		.view-the-shop {
+			float: left;
+			width: 70%;
+		}
+		#block-views-kpi-block-block {
+			float: left;
+			width: 30%;
+			padding: 0;
+			.views-row-1 {
+				margin-top: 0;
+			}
+			.views-row {
+				margin-right: 0;
+			}
+		}
+	}
+}
