@@ -247,7 +247,10 @@ div.jp-interface, div.jp-playlist {
 		text-align: center;
 		th {
 			background: $black;
-			padding: 0.5em 0;
+			font-family: $header-font;
+			font-size: 0.8em;
+			font-weight: normal;
+			padding: 1em 0;
 			text-align: center;
 		}
 		td {
@@ -274,11 +277,18 @@ div.jp-interface, div.jp-playlist {
 	.views-field-title {
 		text-align: left;
 	}
+	.views-exposed-form {
+		margin-bottom: 1em;
+		.views-exposed-widget .form-submit {
+			margin-top: 1em;
+		}
+	}
 	.field--name-field-audio-file {
 		margin-top: 0.5em;
+		height: 45px;
 		width: 150px;
 		.jp-audio {
-			width: 250px!important;
+			width: 150px!important;
 		}
 		.jp-progress {
 			display: none;
