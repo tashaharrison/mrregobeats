@@ -75,8 +75,8 @@
 		list-style-type: none;
 		padding: 0 0.6em;
 		a {
-			font-family: $header-font;
-			font-size: 0.8em;
+			font-family: $body-font;
+			font-size: 1em;
 		}
 	}
 }
@@ -149,7 +149,7 @@ div.jp-interface, div.jp-playlist {
 	border: none;
 	background-color: transparent;
 }
-.view-content {
+.view-homepage {
 	.jp-audio {
 		margin: 0 auto;
 		width: 565px;
@@ -239,6 +239,90 @@ div.jp-interface, div.jp-playlist {
 			}
 			.jp-mute {
 				display: none!important;
+			}
+		}
+	}
+}
+/**************************
+	Category Page
+***************************/
+.view-the-shop {
+	.views-table {
+		text-align: center;
+		th {
+			background: $black;
+			padding: 0.5em 0;
+			text-align: center;
+		}
+		td {
+			padding: 0.5em;
+			width: 120px;
+		}
+		tr {
+			&.odd {
+				background: $light-grey;
+			}
+			&.even {
+				background: $dark-grey;
+			}
+		}
+	}
+	.views-field-view-node {
+		a {
+			@extend input[type="submit"];
+		}
+	}
+	.views-field-title {
+		text-align: left;
+	}
+	.field--name-field-audio-file {
+		margin-top: 0.5em;
+		width: 150px;
+		.jp-audio {
+			width: 250px!important;
+		}
+		.jp-progress {
+			display: none;
+		}
+		.jp-volume-bar {
+			display: none!important;
+		}
+		.jp-mute {
+			display: none!important;
+		}
+		.jp-current-time {
+			display: none;
+		}
+		.jp-duration {
+			display: none;
+		}
+		.jp-playlist {
+			display: none;
+		}
+		.jp-play {
+			@include spr-sprite("beats-play");
+			top: 0!important;
+			left: 0!important;
+			&:hover {
+				@include spr-sprite("beats-play-hover");
+			}
+		}
+		.jp-pause {
+			@include spr-sprite("beats-pause");
+			top: 0!important;
+			left: 0!important;
+			&:hover {
+				@include spr-sprite("beats-pause-hover");
+			}
+		}
+		.jp-stop {
+			@include spr-sprite("beats-stop");
+			width: 40px;
+			height: 40px;
+			top: 0!important;
+			left: 47px!important;
+			&:hover {
+				@include spr-sprite("beats-stop");
 			}
 		}
 	}
