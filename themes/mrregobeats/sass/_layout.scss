@@ -119,3 +119,41 @@
 		}
 	}
 }
+/**************************
+	The Blog
+***************************/
+@include at-breakpoint($tab) {
+	.page-blog {
+		.view-content {
+		float: left;
+		width: 50%;
+		}
+		.attachment {
+			float: left;
+			width: 50%;
+			.view-content {
+				width: 100%;
+			}
+		}
+	}
+	.node-type-blog-post {
+		.node--blog-post {
+			float: left; 
+			margin-right: 5%;
+			width: 57.19%;
+		}
+		#block-views-blog-block-1 {
+			width: 35%;
+		}
+	}
+}
+@include at-breakpoint($desk) {
+	.page-blog {
+		.view-content {
+		width: 60%;
+		}
+		.attachment {
+			width: 40%;
+		}
+	}
+}

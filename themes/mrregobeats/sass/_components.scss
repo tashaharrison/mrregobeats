@@ -49,6 +49,9 @@
 .block--views {
 	padding: 0.5em 1em;
 }
+.site-logo img {
+	max-width: 100%;
+}
 /**************************
 	Header
 ***************************/
@@ -105,29 +108,6 @@
 					padding: 1em;
 					margin: 1em;
 				}
-			}
-		}
-	}
-	#block-views-blog-block-1 {
-		h2 {
-			text-align: left;
-		}
-		.views-row {
-			background: $light-grey;
-			padding: 0.2em 0.5em 0.3em;
-			margin-bottom: 1em;
-			.views-field-nothing {
-				@include spr-sprite("news");
-				height: 65px;
-				width: 72px;
-				float: left;
-				padding: 0.2em 0.5em;
-			}
-			h3 {
-				margin: 0.2em 0;
-			}
-			p {
-				margin: 0.2em 0;
 			}
 		}
 	}
@@ -374,6 +354,47 @@ div.jp-interface, div.jp-playlist {
 		width: 172px;
 		input[type="submit"] {
 			margin: 0 2em;
+		}
+	}
+}
+/**************************
+	The Blog
+***************************/
+.page-blog {
+	.view-blog {
+		@extend .view-the-shop;
+		.views-row {
+			display: block;
+			background: $dark-grey;
+			border: 3px solid $light-grey;
+			padding: 1em;
+			margin: 1em;
+		}
+		.field--name-field-audio-post {
+			@extend .field--name-field-audio-file;
+		}
+	}
+}
+#block-views-blog-block-1 {
+	h2 {
+		text-align: left;
+	}
+	.views-row {
+		background: $light-grey;
+		padding: 0.2em 0.5em 0.3em;
+		margin-bottom: 1em;
+		.views-field-nothing {
+			@include spr-sprite("news");
+			height: 65px;
+			width: 72px;
+			float: left;
+			padding: 0.2em 0.5em;
+		}
+		h3 {
+			margin: 0.2em 0;
+		}
+		p {
+			margin: 0.2em 0;
 		}
 	}
 }
