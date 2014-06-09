@@ -90,3 +90,32 @@
 		}
 	}
 }
+/**************************
+	Product Page
+***************************/
+@include at-breakpoint($desk) {
+	.node-type-product-display {
+		.field--name-field-audio-file {
+			float: left;
+			margin-right: 5%;
+			width: 50%;
+		}
+		#node_product_display_full_group_product_info {
+			float: left;
+			margin: 1.6em 0;
+			width: 45%;
+		}
+		#block-views-kpi-block-block {
+			clear: both;
+		}
+		.field--name-field-product-reference {
+			width: 100%!important;
+			input[type="submit"] {
+				margin: 0!important;
+			}
+		}
+		.field-commerce-price {
+			margin: 0 0 0.8em!important;
+		}
+	}
+}

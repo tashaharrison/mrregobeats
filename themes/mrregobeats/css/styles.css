@@ -190,6 +190,39 @@ input[type="submit"], .view-the-shop .views-field-view-node a {
     margin-right: 0;
   }
 }
+/**************************
+	Product Page
+***************************/
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\0000398}}
+  .node-type-product-display .field--name-field-audio-file {
+    float: left;
+    margin-right: 5%;
+    width: 50%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\00003103}}
+  .node-type-product-display #node_product_display_full_group_product_info {
+    float: left;
+    margin: 1.6em 0;
+    width: 45%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\00003108}}
+  .node-type-product-display #block-views-kpi-block-block {
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\00003111}}
+  .node-type-product-display .field--name-field-product-reference {
+    width: 100% !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\00003113}}
+  .node-type-product-display .field--name-field-product-reference input[type="submit"], .node-type-product-display .field--name-field-product-reference .view-the-shop .views-field-view-node a, .view-the-shop .views-field-view-node .node-type-product-display .field--name-field-product-reference a {
+    margin: 0 !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\00003117}}
+  .node-type-product-display .field-commerce-price {
+    margin: 0 0 0.8em !important;
+  }
+}
 /*******************************************************************************
  * _components.scss
  *
@@ -627,11 +660,20 @@ div.jp-interface, div.jp-playlist {
   background: #161616;
   border: 3px solid #636363;
   padding: 1em;
-  margin-bottom: 0.8em;
-  width: 5%;
+  margin: 0 auto 0.8em;
+  width: 50px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003368}}
 .node-type-product-display .field--name-body {
   clear: both;
   padding-top: 0.1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003372}}
+.node-type-product-display .field--name-field-product-reference {
+  margin: 0 auto;
+  width: 172px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003375}}
+.node-type-product-display .field--name-field-product-reference input[type="submit"], .node-type-product-display .field--name-field-product-reference .view-the-shop .views-field-view-node a, .view-the-shop .views-field-view-node .node-type-product-display .field--name-field-product-reference a {
+  margin: 0 2em;
 }
