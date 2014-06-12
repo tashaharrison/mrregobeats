@@ -81,6 +81,12 @@
 			float: left;
 			width: 30%;
 			padding: 0;
+			&.sticky {
+				position: fixed;
+				top: 0.5em;
+				right: 21.9em;
+				width: 18.5%;
+			}
 			.views-row-1 {
 				margin-top: 0;
 			}
@@ -107,6 +113,11 @@
 		}
 		#block-views-kpi-block-block {
 			clear: both;
+			.views-row {
+				display: inline-block;
+				width: 43.3%;
+				vertical-align: top;
+			}
 		}
 		.field--name-field-product-reference {
 			width: 100%!important;

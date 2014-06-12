@@ -4,7 +4,7 @@
  * Styling of the "simple" layout demonstrating the Compass grid extension Susy
  * and building mobile first layouts.
  ******************************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000328}}
 .l-header,
 .l-main,
 .l-footer {
@@ -29,7 +29,7 @@
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000336}}
 .l-region--highlighted,
 .l-region--help,
 .l-region--sidebar-first,
@@ -38,7 +38,7 @@
 }
 
 @media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000344}}
   .l-header,
   .l-main,
   .l-footer {
@@ -46,26 +46,26 @@
     max-width: 73.125rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000351}}
   .l-region--header {
     clear: both;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000354}}
   .l-branding {
     width: 100%;
     float: left;
     margin-right: 1.69492%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000357}}
   .l-region--navigation {
     width: 74.57627%;
     float: right;
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000364}}
   .sidebar-first .l-content,
   .sidebar-second .l-content,
   .two-sidebars .l-content {
@@ -73,7 +73,7 @@
     float: left;
     margin-right: 1.69492%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000367}}
   .sidebar-first .l-region--sidebar-first,
   .sidebar-first .l-region--sidebar-second,
   .sidebar-second .l-region--sidebar-first,
@@ -84,7 +84,7 @@
     float: right;
     margin-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000371}}
   .sidebar-first .l-region--sidebar-second,
   .sidebar-second .l-region--sidebar-second,
   .two-sidebars .l-region--sidebar-second {
@@ -92,14 +92,14 @@
   }
 }
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000378}}
   .l-page {
     max-width: 1170px;
     max-width: 73.125rem;
     margin: 0 auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000382}}
   .l-header,
   .l-main,
   .l-footer {
@@ -107,45 +107,45 @@
     max-width: 73.125rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000388}}
   .l-region--header {
     clear: both;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000391}}
   .l-branding {
     width: 100%;
     float: left;
     margin-right: 1.26582%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000394}}
   .l-region--navigation {
     width: 81.01266%;
     float: right;
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\0000399}}
   .sidebar-first .l-content {
     width: 74.68354%;
     float: right;
     margin-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003102}}
   .sidebar-first .l-region--sidebar-first {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003107}}
   .sidebar-second .l-content {
     width: 74.68354%;
     float: left;
     margin-right: 1.26582%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003110}}
   .sidebar-second .l-region--sidebar-second {
     width: 24.05063%;
     float: right;
@@ -153,25 +153,25 @@
     clear: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003117}}
   .two-sidebars .l-content {
     width: 49.36709%;
     float: left;
     margin-right: 1.26582%;
     margin-left: 25.31646%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003121}}
   .two-sidebars .l-region--sidebar-first,
   .two-sidebars .l-region--sidebar-second {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003125}}
   .two-sidebars .l-region--sidebar-first {
     margin-left: -75.94937%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.23-1\.8-2\.7-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/layouts\/griddle\/griddle\.layout\.scss}line{font-family:\00003128}}
   .two-sidebars .l-region--sidebar-second {
     float: right;
     margin-right: 0;

@@ -12,6 +12,7 @@
  */
  
 drupal_add_js (drupal_get_path('theme','mrregobeats') .'/js/script.js');
+drupal_add_js (drupal_get_path('theme','mrregobeats') .'/js/waypoints.min.js');
  
 include_once(drupal_get_path('module', 'jplayer') .'/includes/jplayer.theme.inc');
 
