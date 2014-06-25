@@ -55,7 +55,7 @@ $desk: 70em, 16; // At 70em use 16 columns.
     @include span-columns(12, 12); // Span 12 out of 12 columns.
   }
   .l-region--navigation {
-    @include span-columns(9 omega, 12); // Span the last (omega) 9 columns of 12.
+    @include span-columns(12 omega, 12); // Span the last (omega) 9 columns of 12.
   }
 
   .sidebar-first,
@@ -92,7 +92,7 @@ $desk: 70em, 16; // At 70em use 16 columns.
     @include span-columns(16, 16); // Span 16 out of 16 columns.
   }
   .l-region--navigation {
-    @include span-columns(13 omega, 16); // Span the last (omega) 13 columns of 16.
+    @include span-columns(16 omega, 16); // Span the last (omega) 13 columns of 16.
   }
 
  .sidebar-first {
