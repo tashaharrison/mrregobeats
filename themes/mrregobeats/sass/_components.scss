@@ -52,11 +52,46 @@
 .site-logo img {
 	max-width: 100%;
 }
+.active {
+	color: white;
+}
+/**************************
+	System Messages
+***************************/
+.messages--status, .ok {
+	color: white;
+}
+.messages--status, tr.ok {
+	background: none;
+}
+/**************************
+	Tables
+***************************/
+table {
+	width: 100%;
+	th {
+		background: $purple;
+		color: white;
+		padding: 0.5em 0;
+		text-align: center;
+	}
+	tr {
+		text-align: center;
+		&.odd {
+			background: $light-grey;
+		}
+		&.even {
+			background: $dark-grey;
+		}
+		td {
+			padding: 0.5em 0;
+		}
+	}
+}
 /**************************
 	Header
 ***************************/
 .l-branding {
-	margin-bottom: 0.7em;
 	text-align: center;
 }
 .l-header {
@@ -119,6 +154,7 @@
 		.menu {
 			text-align: center;
 			padding: 0;
+			margin: 0 0 0.9em;
 			a {
 				padding: 0 0.9em;
 			}
@@ -476,5 +512,19 @@ html.js fieldset.collapsed .fieldset-legend {
 		p {
 			margin: 0.2em 0;
 		}
+	}
+}
+/**************************
+	Cart & Checkout Pages
+***************************/
+.view-commerce-cart-form {
+	.line-item-summary {
+		margin: 1em 0.2em 1em 0;
+	}
+}
+.view-commerce-cart-summary {
+	.component-type-commerce-price-formatted-amount {
+		background: $dark-grey;
+		border: 3px solid $light-grey;
 	}
 }
