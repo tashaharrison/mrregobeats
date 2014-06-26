@@ -903,14 +903,28 @@ html.js fieldset.collapsed .fieldset-legend {
 }
 
 /**************************
-	Cart & Checkout Pages
+	FAQs Page
 ***************************/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003521}}
+.node-type-faqs-page .double-field-first {
+  font-weight: bold;
+  padding: 1em 0 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003525}}
+.node-type-faqs-page h3 {
+  font-size: 1.2em;
+  margin: 1.6em 0 0.1em;
+}
+
+/**************************
+	Cart & Checkout Pages
+***************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003534}}
 .view-commerce-cart-form .line-item-summary {
   margin: 1em 0.2em 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003526}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003539}}
 .view-commerce-cart-summary .component-type-commerce-price-formatted-amount {
   background: #161616;
   border: 3px solid #636363;
