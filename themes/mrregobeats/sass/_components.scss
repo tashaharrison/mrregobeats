@@ -191,6 +191,36 @@ table {
 	#block-logintoboggan-logintoboggan-logged-in {
 		@extend #block-user-login;
 	}
+	#block-user-badges-my-badges {
+		clear: right;
+		padding: 0.5em;	
+		text-align: right;		
+	}
+	#block-userpoints-meter-1 {
+		padding-left: 0.5em;
+		margin-top: -5em;
+		h2 {
+			font-size: 0.6em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+			text-align: left;
+		}
+		.points-left {
+			background: $purple;
+			border: none;
+			height: 20px;
+		}
+		.userpoints-meter-meter-bar {
+			background: $dark-grey;
+		}
+		.points-left-wrapper {
+			border: none;
+		}
+		.points-text {
+			font-size: 0.8em;
+			text-shadow: none;
+		}
+	}
 }
 #block-system-main-menu {
 		.menu {
