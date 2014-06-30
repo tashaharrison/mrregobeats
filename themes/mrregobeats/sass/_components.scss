@@ -89,6 +89,34 @@ table {
 	}
 }
 /**************************
+	Login Page
+***************************/
+.toboggan-unified {
+	#login-message {
+		font-family: $header-font;
+		font-size: 1.5em;
+		padding: 0.5em 0;
+	}
+	#login-links {
+		a.lt-active {
+			background: $purple;
+			color: white;
+			&:hover {
+				background: $purple;
+				color: $blue;
+			}
+		}
+		a {
+			background: $dark-grey;
+			color: white;
+			&:hover {
+				color: $purple;
+				background: $dark-grey;
+			}
+		}
+	}
+}
+/**************************
 	Header
 ***************************/
 .l-branding {
@@ -101,8 +129,9 @@ table {
 	background: $purple;
 }
 .l-region--header {
+	height: 26px;
 	#block-boxes-social-icons {
-		display: inline-block;
+		float: left;
 		div {
 			float: left;
 			padding-right: 0.2em;
@@ -148,6 +177,19 @@ table {
 				}
 			}
 		}
+	}
+	#block-user-login {
+		float: right;
+		padding-right: 0.5em;
+		a {
+			color: $blue;
+			&:hover {
+				color: $blue;
+			}
+		}	
+	}
+	#block-logintoboggan-logintoboggan-logged-in {
+		@extend #block-user-login;
 	}
 }
 #block-system-main-menu {
