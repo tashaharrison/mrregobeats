@@ -58,11 +58,49 @@
 /**************************
 	System Messages
 ***************************/
+.messages {
+	background-color: $dark-grey;
+	border: 3px solid $light-grey;
+}
 .messages--status, .ok {
 	color: white;
+	@include spr-sprite("tick");	
 }
 .messages--status, tr.ok {
-	background: none;
+	
+}
+.messages--commerce-add-to-cart-confirmation {
+	padding: 1em;
+	left: 50%;
+	margin-left: -10% !important;
+	overflow: hidden;
+	position: absolute;
+	width: 300px;
+	z-index: 201;
+	background: $dark-grey;
+	border: 3px solid $light-grey;
+	text-align: center;
+	.added-product-title {
+		font-family: $header-font;
+	}
+	.button-wrapper {
+		padding-top: 0.8em;
+		.button {
+			cursor: pointer;
+			background: $purple;
+			color: $white;
+			border: none;
+			padding: 0.5em 1em;
+			font-size: 1em;
+			margin: 0.5em 0;
+			a:hover {
+				color: white;
+			}
+		}
+	}
+	.view-confirm-message-product-display {
+		padding-top: 0.8em;
+	}
 }
 /**************************
 	Tables
@@ -220,6 +258,15 @@ table {
 			font-size: 0.8em;
 			text-shadow: none;
 		}
+	}
+	#block-userpoints-meter-2 {
+		@extend #block-userpoints-meter-1;
+	}
+	#block-userpoints-meter-3 {
+		@extend #block-userpoints-meter-1;
+	}
+	#block-userpoints-meter-4 {
+		@extend #block-userpoints-meter-1;
 	}
 }
 #block-system-main-menu {
