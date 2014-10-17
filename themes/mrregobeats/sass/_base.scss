@@ -45,6 +45,10 @@ a {
 		color: $purple;
 	}
 }
+.field--name-body img {
+	width: 100%!important;
+	height: auto!important;
+}
 input[type="submit"] {
 	font-family: $body-font;
 	cursor: pointer;
