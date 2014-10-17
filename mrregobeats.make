@@ -36,14 +36,17 @@ projects[goals][version] = "1.3"
 projects[jplayer][subdir] = "contrib"
 projects[jplayer][version] = "2.0-beta1"
 
+projects[rules_link][subdir] = "contrib"
+projects[rules_link][version] = "1.1"
+
 projects[user_badges][subdir] = "contrib"
 projects[user_badges][version] = "3.2"
 
 projects[userpoints][subdir] = "contrib"
 projects[userpoints][version] = "1.0"
 
-projects[userpoints][subdir] = "contrib"
-projects[userpoints][version] = "1.0"
+projects[userpoints_meter][subdir] = "contrib"
+projects[userpoints_meter][version] = "2.0"
 
 projects[views_fieldsets][subdir] = "contrib"
 projects[views_fieldsets][version] = "1.2"
