@@ -56,6 +56,31 @@
 	color: white;
 }
 /**************************
+	Page Background
+***************************/
+body {
+	background: url('../images/bg.png');
+	&.page-buy-beats {
+		background: url('../images/green-bg.png');
+	}
+	&.section-who-mr-rego-beats {
+		background: url('../images/arsenal-bg.png');
+	}
+}
+/**************************
+	IE Fixes
+***************************/
+.ie {
+	a img {
+		border: none;
+	}
+	#block-views-kpi-block-block {
+		.fieldset-legend {
+			width: 250px;
+		}
+	}
+}
+/**************************
 	System Messages
 ***************************/
 .messages {
@@ -465,10 +490,29 @@ div.jp-interface {
 				}
 			}
 			.jp-volume-bar {
-				display: none!important;
+				top: 331px;
+				left: 95px;
+				height: 25px;
+				width: 156px;
+				background: transparent;
+			}
+			.jp-volume-bar-value {
+				background: url('../images/volume-bar.png') no-repeat;
+				height: 25px;
 			}
 			.jp-mute {
-				display: none!important;
+				top: 325px;
+				left: 53px;
+				@include spr-sprite("mute");
+				height: 35px;
+				width: 29px;
+			}
+			.jp-unmute {
+				top: 325px;
+				left: 53px;
+				@include spr-sprite("unmute");
+				height: 35px;
+				width: 29px;
 			}
 		}
 	}
@@ -492,6 +536,9 @@ div.jp-interface {
 			width: 120px;
 			&.views-field-field-audio-bpm {
 				width: 80px;
+			}
+			&.views-field-title {
+				width: 275px;
 			}
 		}
 		tr {
@@ -519,8 +566,12 @@ div.jp-interface {
 	}
 	.field--name-field-audio-file {
 		margin-top: 0.5em;
-		height: 45px;
+		height: 50px;
 		width: 150px;
+		float: left;
+		div.jp-interface {
+			height: 20px!important;
+		}
 		.jp-audio {
 			width: 150px!important;
 		}
@@ -528,7 +579,13 @@ div.jp-interface {
 			display: none;
 		}
 		.jp-volume-bar {
-			display: none!important;
+			top: 45px!important;
+			left: 2px!important;
+			width: 100%;
+			background: lighten($light-grey, 30%);
+			.jp-volume-bar-value {
+				background: $purple;
+			}
 		}
 		.jp-mute {
 			display: none!important;
@@ -567,6 +624,15 @@ div.jp-interface {
 			&:hover {
 				@include spr-sprite("beats-stop");
 			}
+		}
+	}
+	.download-beat {
+		margin-top: 1em;
+		a {
+			background: $dark-grey;
+			border: 2px solid $light-grey;
+			color: $white;
+			padding: 0.2em 0.5em;
 		}
 	}
 }
@@ -634,6 +700,7 @@ html.js fieldset.collapsed .fieldset-legend {
 }
 .service-links {
 	li {
+		display: inline-block;
 		list-style: none;
 	}
 }
