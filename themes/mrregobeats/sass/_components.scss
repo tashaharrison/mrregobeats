@@ -832,6 +832,9 @@ html.js fieldset.collapsed .fieldset-legend {
 	}
 }
 .service-links {
+	ul {
+		padding: 0;
+	}
 	li {
 		display: inline-block;
 		list-style: none;

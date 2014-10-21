@@ -73,11 +73,20 @@
 /**************************
 	Category Page
 ***************************/
-.section-buy-beats {
-	.views-field-field-audio-length,
-	.views-field-field-audio-producer,
-	.views-field-field-audio-bpm {
-		
+.tab-inactive {
+	&.section-buy-beats {
+		.views-field-field-audio-length {
+			display: none;
+		}
+		.views-field-field-audio-producer {
+			@extend .views-field-field-audio-length;
+		}
+		.views-field-field-audio-bpm {
+			@extend .views-field-field-audio-length;
+		}
+		td {
+			width: 50%!important;
+		}
 	}
 }
 @include at-breakpoint($desk) {
@@ -108,6 +117,27 @@
 /**************************
 	Product Page
 ***************************/
+.desk-inactive {
+	&.node-type-product-display {
+		.commerce-product-field-commerce-price {
+			float: left;
+			margin: 1em 3em 1em 0;
+		}
+		.commerce-product-field-commerce-price {
+			float: left;
+			#edit-submit {
+				margin: 0;
+			}
+		}
+		.service-links {
+			clear: both;
+			margin-top: 0.5em;
+		}
+		#block-views-kpi-block-block {
+			clear: both;
+		}
+	}
+}
 @include at-breakpoint($desk) {
 	.node-type-product-display {
 		.field--name-field-audio-file {
@@ -127,6 +157,11 @@
 				width: 43.3%;
 				vertical-align: top;
 			}
+		}
+		.service-links {
+			clear: both;
+			float: right;
+			margin-top: -6em;
 		}
 		.field--name-field-product-reference {
 			width: 100%!important;
@@ -173,6 +208,27 @@
 		width: 60%;
 		}
 		.attachment {
+			width: 40%;
+		}
+	}
+}
+/**************************
+	Contact
+***************************/
+.node--webform {
+	input {
+		width: 100%;
+	}
+}
+@include at-breakpoint($tab) {
+	.node--webform {
+		.field--name-body {
+			float: left;
+			width: 50%;
+			margin-right: 5%;
+		}
+		.webform-client-form {
+			float: left;
 			width: 40%;
 		}
 	}
