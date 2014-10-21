@@ -315,13 +315,55 @@ table {
 ***************************/
 .menu {
 	.leaf {
-		display: inline-block;
 		list-style-image: none;
 		list-style-type: none;
-		padding: 0 0.6em;
+		padding: 0.5em 0;
+	}
+}
+/* Responsive Menu */
+.tab-inactive {
+	#block-system-main-menu {
+		background: $purple;
+		padding: 0.5em 0;
+		font-size: 1.2em;
+		margin: 0.4em;
+		@include border-radius(5px);
+		color: $white;
+		text-align: center;
+		.menu {
+			margin: 0;
+		}
+		li.first {
+			padding-top: 1em;
+		}
 		a {
-			font-family: $body-font;
-			font-size: 1em;
+			color: $white;
+		}
+		.menu-icon {
+			width: 95%;
+			margin: 0 auto;
+			&.close {
+				@include spr-sprite("menu");
+				height: 22px;
+			}
+			&.open {
+				@include spr-sprite("menu-close");
+				height: 22px;
+			}
+		}
+	}	
+}
+@include at-breakpoint($tab) {
+	.menu {
+		.leaf {
+			display: inline-block;
+			list-style-image: none;
+			list-style-type: none;
+			padding: 0 0.6em;
+			a {
+				font-family: $body-font;
+				font-size: 1em;
+			}
 		}
 	}
 }

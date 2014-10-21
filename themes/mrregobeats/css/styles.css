@@ -26,9 +26,9 @@
  *      - Layout and grid sizing.
  ******************************************************************************/
 @import url(http://fonts.googleapis.com/css?family=Roboto|Press+Start+2P);
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/spr\/\*\.png}line{font-family:\00003258}}
-.spr-sprite, .messages--status, .ok, .l-region--header #block-boxes-social-icons .facebook, .l-region--header #block-boxes-social-icons .twitter, .view-homepage .jp-audio .jp-type-playlist .jp-play, .node-type-product-display .jp-audio .jp-type-playlist .jp-play, .view-homepage .jp-audio .jp-type-playlist .jp-play:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-play:hover, .view-homepage .jp-audio .jp-type-playlist .jp-pause, .node-type-product-display .jp-audio .jp-type-playlist .jp-pause, .view-homepage .jp-audio .jp-type-playlist .jp-pause:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-pause:hover, .view-homepage .jp-audio .jp-type-playlist .jp-stop, .node-type-product-display .jp-audio .jp-type-playlist .jp-stop, .view-homepage .jp-audio .jp-type-playlist .jp-stop:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-stop:hover, .view-homepage .jp-audio .jp-type-playlist .jp-previous, .node-type-product-display .jp-audio .jp-type-playlist .jp-previous, .view-homepage .jp-audio .jp-type-playlist .jp-previous:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-previous:hover, .view-homepage .jp-audio .jp-type-playlist .jp-next, .node-type-product-display .jp-audio .jp-type-playlist .jp-next, .view-homepage .jp-audio .jp-type-playlist .jp-next:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-next:hover, .view-homepage .jp-audio .jp-type-playlist .jp-mute, .node-type-product-display .jp-audio .jp-type-playlist .jp-mute, .view-homepage .jp-audio .jp-type-playlist .jp-unmute, .node-type-product-display .jp-audio .jp-type-playlist .jp-unmute, .view-the-shop .field--name-field-audio-file .jp-play, .page-blog .view-blog .field--name-field-audio-file .jp-play, .page-blog .view-blog .field--name-field-audio-post .jp-play, .view-the-shop .field--name-field-audio-file .jp-play:hover, .view-the-shop .field--name-field-audio-file .jp-pause, .page-blog .view-blog .field--name-field-audio-file .jp-pause, .page-blog .view-blog .field--name-field-audio-post .jp-pause, .view-the-shop .field--name-field-audio-file .jp-pause:hover, .view-the-shop .field--name-field-audio-file .jp-stop, .page-blog .view-blog .field--name-field-audio-file .jp-stop, .page-blog .view-blog .field--name-field-audio-post .jp-stop, .view-the-shop .field--name-field-audio-file .jp-stop:hover, html.js fieldset.collapsible .fieldset-legend, html.js fieldset.collapsed .fieldset-legend, #block-views-blog-block-1 .views-row .views-field-nothing {
-  background: url('../images/generated/spr-s71e933dfa6.png') no-repeat;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/spr\/\*\.png}line{font-family:\00003274}}
+.spr-sprite, .messages--status, .ok, .l-region--header #block-boxes-social-icons .facebook, .l-region--header #block-boxes-social-icons .twitter, .tab-inactive #block-system-main-menu .menu-icon.close, .tab-inactive #block-system-main-menu .menu-icon.open, .view-homepage .jp-audio .jp-type-playlist .jp-play, .node-type-product-display .jp-audio .jp-type-playlist .jp-play, .view-homepage .jp-audio .jp-type-playlist .jp-play:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-play:hover, .view-homepage .jp-audio .jp-type-playlist .jp-pause, .node-type-product-display .jp-audio .jp-type-playlist .jp-pause, .view-homepage .jp-audio .jp-type-playlist .jp-pause:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-pause:hover, .view-homepage .jp-audio .jp-type-playlist .jp-stop, .node-type-product-display .jp-audio .jp-type-playlist .jp-stop, .view-homepage .jp-audio .jp-type-playlist .jp-stop:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-stop:hover, .view-homepage .jp-audio .jp-type-playlist .jp-previous, .node-type-product-display .jp-audio .jp-type-playlist .jp-previous, .view-homepage .jp-audio .jp-type-playlist .jp-previous:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-previous:hover, .view-homepage .jp-audio .jp-type-playlist .jp-next, .node-type-product-display .jp-audio .jp-type-playlist .jp-next, .view-homepage .jp-audio .jp-type-playlist .jp-next:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-next:hover, .view-homepage .jp-audio .jp-type-playlist .jp-mute, .node-type-product-display .jp-audio .jp-type-playlist .jp-mute, .view-homepage .jp-audio .jp-type-playlist .jp-unmute, .node-type-product-display .jp-audio .jp-type-playlist .jp-unmute, .view-the-shop .field--name-field-audio-file .jp-play, .page-blog .view-blog .field--name-field-audio-file .jp-play, .page-blog .view-blog .field--name-field-audio-post .jp-play, .view-the-shop .field--name-field-audio-file .jp-play:hover, .view-the-shop .field--name-field-audio-file .jp-pause, .page-blog .view-blog .field--name-field-audio-file .jp-pause, .page-blog .view-blog .field--name-field-audio-post .jp-pause, .view-the-shop .field--name-field-audio-file .jp-pause:hover, .view-the-shop .field--name-field-audio-file .jp-stop, .page-blog .view-blog .field--name-field-audio-file .jp-stop, .page-blog .view-blog .field--name-field-audio-post .jp-stop, .view-the-shop .field--name-field-audio-file .jp-stop:hover, html.js fieldset.collapsible .fieldset-legend, html.js fieldset.collapsed .fieldset-legend, #block-views-blog-block-1 .views-row .views-field-nothing {
+  background: url('../images/generated/spr-s7c3800df69.png') no-repeat;
 }
 
 /*******************************************************************************
@@ -727,42 +727,93 @@ table tr td.active {
 ***************************/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003317}}
 .menu .leaf {
-  display: inline-block;
   list-style-image: none;
   list-style-type: none;
-  padding: 0 0.6em;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003322}}
-.menu .leaf a {
-  font-family: "Roboto", sans-serif;
-  font-size: 1em;
+  padding: 0.5em 0;
 }
 
+/* Responsive Menu */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003325}}
+.tab-inactive #block-system-main-menu {
+  background: #d10ee3;
+  padding: 0.5em 0;
+  font-size: 1.2em;
+  margin: 0.4em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003333}}
+.tab-inactive #block-system-main-menu .menu {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003336}}
+.tab-inactive #block-system-main-menu li.first {
+  padding-top: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003339}}
+.tab-inactive #block-system-main-menu a {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003342}}
+.tab-inactive #block-system-main-menu .menu-icon {
+  width: 95%;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003345}}
+.tab-inactive #block-system-main-menu .menu-icon.close {
+  background-position: 0 -834px;
+  height: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003349}}
+.tab-inactive #block-system-main-menu .menu-icon.open {
+  background-position: 0 -430px;
+  height: 22px;
+}
+
+@media (min-width: 44em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003358}}
+  .menu .leaf {
+    display: inline-block;
+    list-style-image: none;
+    list-style-type: none;
+    padding: 0 0.6em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003363}}
+  .menu .leaf a {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+  }
+}
 /**************************
 	Frontpage
 ***************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003374}}
 .front h1, .front h2 {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003377}}
 .front .l-main {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003380}}
 .front .l-main .view-homepage .view-content, .front .l-main .node-type-product-display .view-content {
   margin-bottom: 10em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003384}}
 .front .l-main .view-homepage .mrb-playlist li, .front .l-main .node-type-product-display .mrb-playlist li {
   list-style-type: none;
   padding: 0.1em 1em 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003389}}
 .front .l-main .view-homepage .view-display-id-attachment_2, .front .l-main .node-type-product-display .view-display-id-attachment_2 {
   margin-bottom: 16em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003391}}
 .front .l-main .view-homepage .view-display-id-attachment_2 .views-row, .front .l-main .node-type-product-display .view-display-id-attachment_2 .views-row {
   display: block;
   background: #161616;
@@ -770,7 +821,7 @@ table tr td.active {
   padding: 1em;
   margin: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003401}}
 .front #block-views-about-us-homepage-block-block {
   background: #161616;
   border: 3px solid #636363;
@@ -781,18 +832,18 @@ table tr td.active {
 	The Player
 ***************************/
 /* The following is resetting the module's css */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003412}}
 div.jp-interface {
   border: none;
   background-color: transparent;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003417}}
 .view-homepage .jp-audio, .node-type-product-display .jp-audio {
   margin: 0 auto;
   width: 288px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003420}}
 .view-homepage .jp-audio .jp-type-playlist, .node-type-product-display .jp-audio .jp-type-playlist {
   background: url("../images/mpc2000-player-sm.png") no-repeat 0 0;
   color: black;
@@ -800,78 +851,78 @@ div.jp-interface {
   height: 206px;
   width: 288px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003426}}
 .view-homepage .jp-audio .jp-type-playlist a, .node-type-product-display .jp-audio .jp-type-playlist a {
   height: 12px;
   width: 22px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003430}}
 .view-homepage .jp-audio .jp-type-playlist .jp-play, .node-type-product-display .jp-audio .jp-type-playlist .jp-play {
   left: 166px;
   top: 82px;
   background-position: 0 -104px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003434}}
 .view-homepage .jp-audio .jp-type-playlist .jp-play:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-play:hover {
   background-position: 0 -104px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003438}}
 .view-homepage .jp-audio .jp-type-playlist .jp-pause, .node-type-product-display .jp-audio .jp-type-playlist .jp-pause {
   left: 166px;
   top: 82px;
   background-position: 0 -116px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003442}}
 .view-homepage .jp-audio .jp-type-playlist .jp-pause:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-pause:hover {
   background-position: 0 -116px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003446}}
 .view-homepage .jp-audio .jp-type-playlist .jp-stop, .node-type-product-display .jp-audio .jp-type-playlist .jp-stop {
   left: 191px;
   top: 82px;
   background-position: 0 -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003450}}
 .view-homepage .jp-audio .jp-type-playlist .jp-stop:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-stop:hover {
   background-position: 0 -128px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003454}}
 .view-homepage .jp-audio .jp-type-playlist .jp-previous, .node-type-product-display .jp-audio .jp-type-playlist .jp-previous {
   left: 165px;
   top: 106px;
   background-position: 0 -92px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003416}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003458}}
 .view-homepage .jp-audio .jp-type-playlist .jp-previous:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-previous:hover {
   background-position: 0 -92px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003420}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003462}}
 .view-homepage .jp-audio .jp-type-playlist .jp-next, .node-type-product-display .jp-audio .jp-type-playlist .jp-next {
   left: 194px;
   top: 106px;
   background-position: 0 -80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003466}}
 .view-homepage .jp-audio .jp-type-playlist .jp-next:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-next:hover {
   background-position: 0 -80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003428}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003470}}
 .view-homepage .jp-audio .jp-type-playlist .jp-progress, .node-type-product-display .jp-audio .jp-type-playlist .jp-progress {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003431}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003473}}
 .view-homepage .jp-audio .jp-type-playlist .jp-current-time, .node-type-product-display .jp-audio .jp-type-playlist .jp-current-time {
   left: 83px;
   top: 23px;
   font-size: 0.4em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003436}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003478}}
 .view-homepage .jp-audio .jp-type-playlist .jp-duration, .node-type-product-display .jp-audio .jp-type-playlist .jp-duration {
   left: 4px;
   top: 33px;
   font-size: 0.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003486}}
 .view-homepage .jp-audio .jp-type-playlist .jp-playlist, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist {
   position: relative;
   top: 6em;
@@ -880,47 +931,47 @@ div.jp-interface {
   border: none;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003451}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003493}}
 .view-homepage .jp-audio .jp-type-playlist .jp-playlist ul, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist ul {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003496}}
 .view-homepage .jp-audio .jp-type-playlist .jp-playlist li, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li {
   padding: 0.5em;
   background: #636363;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003499}}
 .view-homepage .jp-audio .jp-type-playlist .jp-playlist li.jp-playlist-current, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li.jp-playlist-current {
   list-style: none;
   background: #161616;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003461}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003503}}
 .view-homepage .jp-audio .jp-type-playlist .jp-playlist li.jp-playlist-current .buy-button a, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li.jp-playlist-current .buy-button a {
   background: #d10ee3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003508}}
 .view-homepage .jp-audio .jp-type-playlist .jp-playlist li:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li:hover {
   background: #161616;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003469}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003511}}
 .view-homepage .jp-audio .jp-type-playlist .jp-playlist li:hover .buy-button a, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li:hover .buy-button a {
   background: #d10ee3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003516}}
 .view-homepage .jp-audio .jp-type-playlist .jp-playlist li a, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li a {
   color: white;
   font-size: 0.8em;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003480}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003522}}
 .view-homepage .jp-audio .jp-type-playlist .jp-playlist .buy-button, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist .buy-button {
   margin: 1em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003482}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003524}}
 .view-homepage .jp-audio .jp-type-playlist .jp-playlist .buy-button a, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist .buy-button a {
   background: #969696;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003530}}
 .view-homepage .jp-audio .jp-type-playlist .jp-volume-bar, .node-type-product-display .jp-audio .jp-type-playlist .jp-volume-bar {
   top: 164px;
   left: 47px;
@@ -928,12 +979,12 @@ div.jp-interface {
   width: 78px;
   background: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003495}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003537}}
 .view-homepage .jp-audio .jp-type-playlist .jp-volume-bar-value, .node-type-product-display .jp-audio .jp-type-playlist .jp-volume-bar-value {
   background: url("../images/volume-bar-sm.png") no-repeat;
   height: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003499}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003541}}
 .view-homepage .jp-audio .jp-type-playlist .jp-mute, .node-type-product-display .jp-audio .jp-type-playlist .jp-mute {
   top: 153px;
   left: 12px;
@@ -941,7 +992,7 @@ div.jp-interface {
   height: 35px;
   width: 29px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003506}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003548}}
 .view-homepage .jp-audio .jp-type-playlist .jp-unmute, .node-type-product-display .jp-audio .jp-type-playlist .jp-unmute {
   top: 153px;
   left: 12px;
@@ -951,132 +1002,132 @@ div.jp-interface {
 }
 
 @media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003518}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003560}}
   .view-homepage .jp-audio, .node-type-product-display .jp-audio {
     width: 565px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003562}}
   .view-homepage .jp-audio .jp-type-playlist, .node-type-product-display .jp-audio .jp-type-playlist {
     background: url("../images/mpc2000-player.png") no-repeat 0 0;
     height: 417px;
     width: 575px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003566}}
   .view-homepage .jp-audio .jp-type-playlist a, .node-type-product-display .jp-audio .jp-type-playlist a {
     height: 25px;
     width: 38px;
     background: url("../images/generated/spr-s71e933dfa6.png");
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003529}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003571}}
   .view-homepage .jp-audio .jp-type-playlist .jp-play, .node-type-product-display .jp-audio .jp-type-playlist .jp-play {
     left: 334px;
     top: 165px;
     background-position: 0 -661px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003533}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003575}}
   .view-homepage .jp-audio .jp-type-playlist .jp-play:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-play:hover {
     background-position: 0 -610px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003537}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003579}}
   .view-homepage .jp-audio .jp-type-playlist .jp-pause, .node-type-product-display .jp-audio .jp-type-playlist .jp-pause {
     left: 334px;
     top: 165px;
     background-position: 0 -712px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003541}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003583}}
   .view-homepage .jp-audio .jp-type-playlist .jp-pause:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-pause:hover {
     background-position: 0 -737px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003587}}
   .view-homepage .jp-audio .jp-type-playlist .jp-stop, .node-type-product-display .jp-audio .jp-type-playlist .jp-stop {
     left: 382px;
     top: 164px;
     background-position: 0 -762px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003549}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003591}}
   .view-homepage .jp-audio .jp-type-playlist .jp-stop:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-stop:hover {
     background-position: 0 -787px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003553}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003595}}
   .view-homepage .jp-audio .jp-type-playlist .jp-previous, .node-type-product-display .jp-audio .jp-type-playlist .jp-previous {
     left: 336px;
     top: 212px;
     background-position: 0 -585px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003557}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003599}}
   .view-homepage .jp-audio .jp-type-playlist .jp-previous:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-previous:hover {
     background-position: 0 -560px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003603}}
   .view-homepage .jp-audio .jp-type-playlist .jp-next, .node-type-product-display .jp-audio .jp-type-playlist .jp-next {
     left: 381px;
     top: 212px;
     background-position: 0 -535px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003607}}
   .view-homepage .jp-audio .jp-type-playlist .jp-next:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-next:hover {
     background-position: 0 -510px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003569}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003611}}
   .view-homepage .jp-audio .jp-type-playlist .jp-progress, .node-type-product-display .jp-audio .jp-type-playlist .jp-progress {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003572}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003614}}
   .view-homepage .jp-audio .jp-type-playlist .jp-current-time, .node-type-product-display .jp-audio .jp-type-playlist .jp-current-time {
     left: 193px;
     top: 47px;
     font-size: 0.64em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003577}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003619}}
   .view-homepage .jp-audio .jp-type-playlist .jp-duration, .node-type-product-display .jp-audio .jp-type-playlist .jp-duration {
     left: 134px;
     top: 67px;
     font-size: 0.5em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003585}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003627}}
   .view-homepage .jp-audio .jp-type-playlist .jp-playlist, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist {
     top: 16em;
     text-align: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003588}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003630}}
   .view-homepage .jp-audio .jp-type-playlist .jp-playlist ul, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist ul {
     padding: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003591}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003633}}
   .view-homepage .jp-audio .jp-type-playlist .jp-playlist li, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li {
     padding: 1.3em 1em 1.4em 0.6em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003636}}
   .view-homepage .jp-audio .jp-type-playlist .jp-playlist li.jp-playlist-current a.jp-link, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li.jp-playlist-current a.jp-link {
     background: url("../images/generated/spr-s71e933dfa6.png") no-repeat 0 -350px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003598}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003640}}
   .view-homepage .jp-audio .jp-type-playlist .jp-playlist li.jp-playlist-current .buy-button a, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li.jp-playlist-current .buy-button a {
     background: #d10ee3;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003603}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003645}}
   .view-homepage .jp-audio .jp-type-playlist .jp-playlist li:hover, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li:hover {
     background: #161616;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003605}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003647}}
   .view-homepage .jp-audio .jp-type-playlist .jp-playlist li:hover a, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li:hover a {
     background: url("../images/generated/spr-s71e933dfa6.png") no-repeat 0 -350px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003609}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003651}}
   .view-homepage .jp-audio .jp-type-playlist .jp-playlist li:hover .buy-button a, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li:hover .buy-button a {
     background: #d10ee3;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003614}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003656}}
   .view-homepage .jp-audio .jp-type-playlist .jp-playlist li a, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist li a {
     padding: 1.2em 1em 1.2em 5.5em;
     background: url("../images/generated/spr-s71e933dfa6.png") no-repeat 0 -430px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003619}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003661}}
   .view-homepage .jp-audio .jp-type-playlist .jp-playlist .buy-button, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist .buy-button {
     float: right;
     margin: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003624}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003666}}
   .view-homepage .jp-audio .jp-type-playlist .jp-volume-bar, .node-type-product-display .jp-audio .jp-type-playlist .jp-volume-bar {
     top: 331px;
     left: 95px;
@@ -1084,12 +1135,12 @@ div.jp-interface {
     width: 156px;
     background: transparent;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003631}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003673}}
   .view-homepage .jp-audio .jp-type-playlist .jp-volume-bar-value, .node-type-product-display .jp-audio .jp-type-playlist .jp-volume-bar-value {
     background: url("../images/volume-bar.png") no-repeat;
     height: 25px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003635}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003677}}
   .view-homepage .jp-audio .jp-type-playlist .jp-mute, .node-type-product-display .jp-audio .jp-type-playlist .jp-mute {
     top: 325px;
     left: 53px;
@@ -1097,7 +1148,7 @@ div.jp-interface {
     height: 35px;
     width: 29px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003642}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003684}}
   .view-homepage .jp-audio .jp-type-playlist .jp-unmute, .node-type-product-display .jp-audio .jp-type-playlist .jp-unmute {
     top: 325px;
     left: 53px;
@@ -1109,11 +1160,11 @@ div.jp-interface {
 /**************************
 	Category Page
 ***************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003657}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003699}}
 .view-the-shop .views-table, .page-blog .view-blog .views-table {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003659}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003701}}
 .view-the-shop .views-table th, .page-blog .view-blog .views-table th {
   background: black;
   font-family: "Press Start 2P", cursive;
@@ -1122,106 +1173,106 @@ div.jp-interface {
   padding: 1em 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003667}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003709}}
 .view-the-shop .views-table td, .page-blog .view-blog .views-table td {
   padding: 0.5em;
   width: 120px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003712}}
 .view-the-shop .views-table td.views-field-field-audio-bpm, .page-blog .view-blog .views-table td.views-field-field-audio-bpm {
   width: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003673}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003715}}
 .view-the-shop .views-table td.views-field-title, .page-blog .view-blog .views-table td.views-field-title {
   width: 275px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003678}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003720}}
 .view-the-shop .views-table tr.odd, .page-blog .view-blog .views-table tr.odd {
   background: #636363;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003681}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003723}}
 .view-the-shop .views-table tr.even, .page-blog .view-blog .views-table tr.even {
   background: #161616;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003691}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003733}}
 .view-the-shop .views-field-title, .page-blog .view-blog .views-field-title {
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003736}}
 .view-the-shop .views-exposed-form, .page-blog .view-blog .views-exposed-form {
   margin-bottom: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003696}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003738}}
 .view-the-shop .views-exposed-form .views-exposed-widget .form-submit, .page-blog .view-blog .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003700}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003742}}
 .view-the-shop .field--name-field-audio-file, .page-blog .view-blog .field--name-field-audio-file, .page-blog .view-blog .field--name-field-audio-post {
   margin-top: 0.5em;
   height: 50px;
   width: 150px;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003705}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003747}}
 .view-the-shop .field--name-field-audio-file div.jp-interface, .page-blog .view-blog .field--name-field-audio-file div.jp-interface, .page-blog .view-blog .field--name-field-audio-post div.jp-interface {
   height: 20px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003708}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003750}}
 .view-the-shop .field--name-field-audio-file .jp-audio, .page-blog .view-blog .field--name-field-audio-file .jp-audio, .page-blog .view-blog .field--name-field-audio-post .jp-audio {
   width: 150px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003711}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003753}}
 .view-the-shop .field--name-field-audio-file .jp-progress, .page-blog .view-blog .field--name-field-audio-file .jp-progress, .page-blog .view-blog .field--name-field-audio-post .jp-progress {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003714}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003756}}
 .view-the-shop .field--name-field-audio-file .jp-volume-bar, .page-blog .view-blog .field--name-field-audio-file .jp-volume-bar, .page-blog .view-blog .field--name-field-audio-post .jp-volume-bar {
   top: 45px !important;
   left: 2px !important;
   width: 100%;
   background: #b0b0b0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003719}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003761}}
 .view-the-shop .field--name-field-audio-file .jp-volume-bar .jp-volume-bar-value, .page-blog .view-blog .field--name-field-audio-file .jp-volume-bar .jp-volume-bar-value, .page-blog .view-blog .field--name-field-audio-post .jp-volume-bar .jp-volume-bar-value {
   background: #d10ee3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003723}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003765}}
 .view-the-shop .field--name-field-audio-file .jp-mute, .page-blog .view-blog .field--name-field-audio-file .jp-mute, .page-blog .view-blog .field--name-field-audio-post .jp-mute {
   display: none !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003726}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003768}}
 .view-the-shop .field--name-field-audio-file .jp-current-time, .page-blog .view-blog .field--name-field-audio-file .jp-current-time, .page-blog .view-blog .field--name-field-audio-post .jp-current-time {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003729}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003771}}
 .view-the-shop .field--name-field-audio-file .jp-duration, .page-blog .view-blog .field--name-field-audio-file .jp-duration, .page-blog .view-blog .field--name-field-audio-post .jp-duration {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003732}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003774}}
 .view-the-shop .field--name-field-audio-file .jp-playlist, .page-blog .view-blog .field--name-field-audio-file .jp-playlist, .page-blog .view-blog .field--name-field-audio-post .jp-playlist {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003735}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003777}}
 .view-the-shop .field--name-field-audio-file .jp-play, .page-blog .view-blog .field--name-field-audio-file .jp-play, .page-blog .view-blog .field--name-field-audio-post .jp-play {
   background-position: 0 -350px;
   top: 0 !important;
   left: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003739}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003781}}
 .view-the-shop .field--name-field-audio-file .jp-play:hover, .page-blog .view-blog .field--name-field-audio-file .jp-play:hover, .page-blog .view-blog .field--name-field-audio-post .jp-play:hover {
-  background-position: 0 -430px;
+  background-position: 0 -452px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003743}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003785}}
 .view-the-shop .field--name-field-audio-file .jp-pause, .page-blog .view-blog .field--name-field-audio-file .jp-pause, .page-blog .view-blog .field--name-field-audio-post .jp-pause {
-  background-position: 0 -470px;
+  background-position: 0 -492px;
   top: 0 !important;
   left: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003747}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003789}}
 .view-the-shop .field--name-field-audio-file .jp-pause:hover, .page-blog .view-blog .field--name-field-audio-file .jp-pause:hover, .page-blog .view-blog .field--name-field-audio-post .jp-pause:hover {
   background-position: 0 -390px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003751}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003793}}
 .view-the-shop .field--name-field-audio-file .jp-stop, .page-blog .view-blog .field--name-field-audio-file .jp-stop, .page-blog .view-blog .field--name-field-audio-post .jp-stop {
   background-position: 0 -167px;
   width: 40px;
@@ -1229,15 +1280,15 @@ div.jp-interface {
   top: 0 !important;
   left: 47px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003757}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003799}}
 .view-the-shop .field--name-field-audio-file .jp-stop:hover, .page-blog .view-blog .field--name-field-audio-file .jp-stop:hover, .page-blog .view-blog .field--name-field-audio-post .jp-stop:hover {
   background-position: 0 -167px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003762}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003804}}
 .view-the-shop .download-beat, .page-blog .view-blog .download-beat {
   margin-top: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003764}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003806}}
 .view-the-shop .download-beat a, .page-blog .view-blog .download-beat a {
   background: #161616;
   border: 2px solid #636363;
@@ -1245,7 +1296,7 @@ div.jp-interface {
   padding: 0.2em 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003773}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003815}}
 #block-views-kpi-block-block .views-row {
   display: block;
   background: #161616;
@@ -1253,46 +1304,46 @@ div.jp-interface {
   padding: 1em 1em 1.5em;
   margin: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003779}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003821}}
 #block-views-kpi-block-block .views-row fieldset {
   border: none;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003785}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003827}}
 #block-views-kpi-block-block .views-row-1 .views-field-field-kpi-list-item {
   padding-top: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003790}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003832}}
 html.js fieldset.collapsible .fieldset-legend {
-  background-position: 0 -686px;
+  background-position: 0 -708px;
   height: 26px;
   padding: 0.05em 0 0 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003794}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003836}}
 html.js fieldset.collapsible .fieldset-legend a {
   color: #d10ee3;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003798}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003840}}
 html.js fieldset.collapsed .fieldset-legend {
-  background-position: 0 -635px;
+  background-position: 0 -657px;
   height: 26px;
 }
 
 /**************************
 	Product Page
 ***************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003807}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003849}}
 .node-type-product-display .jp-playlist {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003811}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003853}}
 .node-type-product-display .field--label-inline .field__items,
 .node-type-product-display .field--label-inline .field__item {
   margin-right: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003814}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003856}}
 .node-type-product-display .field-commerce-price {
   clear: both;
   background: #161616;
@@ -1301,26 +1352,26 @@ html.js fieldset.collapsed .fieldset-legend {
   margin: 0 auto 0.8em;
   width: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003822}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003864}}
 .node-type-product-display .field--name-body {
   clear: both;
   padding-top: 0.1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003826}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003868}}
 .node-type-product-display .field--name-field-product-reference {
   margin: 0 auto;
   width: 172px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003829}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003871}}
 .node-type-product-display .field--name-field-product-reference input[type="submit"], .view-homepage .jp-audio .jp-type-playlist .jp-playlist .buy-button .node-type-product-display .field--name-field-product-reference a, .node-type-product-display .field--name-field-product-reference .jp-audio .jp-type-playlist .jp-playlist .buy-button a, .node-type-product-display .jp-audio .jp-type-playlist .jp-playlist .buy-button .field--name-field-product-reference a, .node-type-product-display .field--name-field-product-reference .view-the-shop .views-field-view-node a, .view-the-shop .views-field-view-node .node-type-product-display .field--name-field-product-reference a, .node-type-product-display .field--name-field-product-reference .page-blog .view-blog .views-field-view-node a, .page-blog .view-blog .views-field-view-node .node-type-product-display .field--name-field-product-reference a {
   margin: 0 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003835}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003877}}
 .service-links ul {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003838}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003880}}
 .service-links li {
   display: inline-block;
   list-style: none;
@@ -1329,7 +1380,7 @@ html.js fieldset.collapsed .fieldset-legend {
 /**************************
 	The Blog
 ***************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003849}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003891}}
 .page-blog .view-blog .views-row {
   display: block;
   background: #161616;
@@ -1338,17 +1389,17 @@ html.js fieldset.collapsed .fieldset-legend {
   margin: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003862}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003904}}
 #block-views-blog-block-1 h2 {
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003865}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003907}}
 #block-views-blog-block-1 .views-row {
   background: #636363;
   padding: 0.2em 0.5em 0.3em;
   margin-bottom: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003869}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003911}}
 #block-views-blog-block-1 .views-row .views-field-nothing {
   background-position: 0 -234px;
   height: 65px;
@@ -1356,11 +1407,11 @@ html.js fieldset.collapsed .fieldset-legend {
   float: left;
   padding: 0.2em 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003876}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003918}}
 #block-views-blog-block-1 .views-row h3 {
   margin: 0.2em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003879}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003921}}
 #block-views-blog-block-1 .views-row p {
   margin: 0.2em 0;
 }
@@ -1368,12 +1419,12 @@ html.js fieldset.collapsed .fieldset-legend {
 /**************************
 	FAQs Page
 ***************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003888}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003930}}
 .node-type-faqs-page .double-field-first {
   font-weight: bold;
   padding: 1em 0 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003892}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003934}}
 .node-type-faqs-page h3 {
   font-size: 1.2em;
   margin: 1.6em 0 0.1em;
@@ -1382,12 +1433,12 @@ html.js fieldset.collapsed .fieldset-legend {
 /**************************
 	Cart & Checkout Pages
 ***************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003901}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003943}}
 .view-commerce-cart-form .line-item-summary {
   margin: 1em 0.2em 1em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003906}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003948}}
 .view-commerce-cart-summary .component-type-commerce-price-formatted-amount {
   background: #161616;
   border: 3px solid #636363;
@@ -1396,7 +1447,7 @@ html.js fieldset.collapsed .fieldset-legend {
 /**************************
 	User Pages
 ***************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003915}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.26-1\.9-2\.8-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_components\.scss}line{font-family:\00003957}}
 .view-user-profile .views-field-nothing {
   text-align: center;
 }
