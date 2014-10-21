@@ -361,10 +361,8 @@ table {
 		border: 3px solid $light-grey;
 		margin: 1em;
 	}
-	.view-homepage {
-		margin-bottom: 25em;
-	}
 }
+
 /**************************
 	The Player
 ***************************/
@@ -376,90 +374,89 @@ div.jp-interface {
 .view-homepage {
 	.jp-audio {
 		margin: 0 auto;
-		width: 565px;
+		width: 288px;
 		.jp-type-playlist {
-			background: url('../images/mpc2000-player.png') no-repeat 0 0;
+			background: url('../images/mpc2000-player-sm.png') no-repeat 0 0;
 			color: $black;
 			font-family: $header-font;
-			height: 417px;
-			width: 575px;
+			height: 206px;
+			width: 288px;
 			a {
-				height: 25px;
-				width: 38px;
+				height: 12px;
+				width: 22px;
 			}
 			.jp-play {
-				left: 334px;
-				top: 165px;
-				@include spr-sprite("play");
+				left: 166px;
+				top: 82px;
+				@include spr-sprite("play-sm");
 				&:hover {
-					@include spr-sprite("play-hover");
+					@include spr-sprite("play-sm");
 				}
 			}
 			.jp-pause {
-				left: 334px;
-				top: 165px;
-				@include spr-sprite("pause");
+				left: 166px;
+				top: 82px;
+				@include spr-sprite("pause-sm");
 				&:hover {
-					@include spr-sprite("pause-hover");
+					@include spr-sprite("pause-sm");
 				}
 			}
 			.jp-stop {
-				left: 382px;
-				top: 164px;
-				@include spr-sprite("stop");
+				left: 191px;
+				top: 82px;
+				@include spr-sprite("stop-sm");
 				&:hover {
-					@include spr-sprite("stop-hover");
+					@include spr-sprite("stop-sm");
 				}
 			}
 			.jp-previous {
-				left: 336px;
-				top: 212px;
-				@include spr-sprite("previous");
+				left: 165px;
+				top: 106px;
+				@include spr-sprite("previous-sm");
 				&:hover {
-					@include spr-sprite("previous-hover");
+					@include spr-sprite("previous-sm");
 				}
 			}
 			.jp-next {
-				left: 381px;
-				top: 212px;
-				@include spr-sprite("next");
+				left: 194px;
+				top: 106px;
+				@include spr-sprite("next-sm");
 				&:hover {
-					@include spr-sprite("next-hover");
+					@include spr-sprite("next-sm");
 				}
 			}
 			.jp-progress {
 				display: none;
 			}
 			.jp-current-time {
-				left: 193px;
-				top: 47px;
+				left: 83px;
+				top: 23px;
+				font-size: 0.4em;
 			}
 			.jp-duration {
-				left: 134px;	
-				top: 67px;	
-				font-size: 0.5em;
+				left: 4px;	
+				top: 33px;	
+				font-size: 0.3em;
 			}
 			.jp-playlist-current {
 				
 			}
 			.jp-playlist {
 				position: relative;
-				top: 16em;
+				top: 6em;
 				color: $white;
 				background: none;
 				border: none;
+				text-align: center;
 				ul {
 					padding: 0;
 				}
 				li {
-					padding: 1.3em 1em 1.4em 0.6em;
+					padding: 0.5em;
 					background: $light-grey;
 					&.jp-playlist-current {
 						list-style: none;
 						background: $dark-grey;
-						a.jp-link {
-							background: url('../images/generated/spr-sebec9a870f.png') no-repeat 0 -290px;
-						}
 						.buy-button {
 							a {
 								background: $purple;
@@ -477,12 +474,11 @@ div.jp-interface {
 					a {
 						color: $white;
 						font-size: 0.8em;
-						padding: 1.2em 1em 1.2em 5.5em;
-						background: url('../images/generated/spr-sebec9a870f.png') no-repeat 0 -210px;
+						padding: 0;
 					}
 				}
 				.buy-button {
-					float: right;
+					margin: 1em 0;
 					a {
 						@extend input[type="submit"];
 						background: lighten($light-grey, 20%);
@@ -490,29 +486,166 @@ div.jp-interface {
 				}
 			}
 			.jp-volume-bar {
-				top: 331px;
-				left: 95px;
-				height: 25px;
-				width: 156px;
+				top: 164px;
+				left: 47px;
+				height: 14px;
+				width: 78px;
 				background: transparent;
 			}
 			.jp-volume-bar-value {
-				background: url('../images/volume-bar.png') no-repeat;
-				height: 25px;
+				background: url('../images/volume-bar-sm.png') no-repeat;
+				height: 14px;
 			}
 			.jp-mute {
-				top: 325px;
-				left: 53px;
+				top: 153px;
+				left: 12px;
 				@include spr-sprite("mute");
 				height: 35px;
 				width: 29px;
 			}
 			.jp-unmute {
-				top: 325px;
-				left: 53px;
+				top: 153px;
+				left: 12px;
 				@include spr-sprite("unmute");
 				height: 35px;
 				width: 29px;
+			}
+		}
+	}
+}
+@include at-breakpoint($tab) {
+	.view-homepage {
+		.jp-audio {
+			width: 565px;
+			.jp-type-playlist {
+				background: url('../images/mpc2000-player.png') no-repeat 0 0;
+				height: 417px;
+				width: 575px;
+				a {
+					height: 25px;
+					width: 38px;
+					background: url('../images/generated/spr-s71e933dfa6.png')
+				}
+				.jp-play {
+					left: 334px;
+					top: 165px;
+					background-position: 0 -661px;
+					&:hover {
+						background-position: 0 -610px;
+					}
+				}
+				.jp-pause {
+					left: 334px;
+					top: 165px;
+					background-position: 0 -712px;
+					&:hover {
+						background-position: 0 -737px;
+					}
+				}
+				.jp-stop {
+					left: 382px;
+					top: 164px;
+					background-position: 0 -762px;
+					&:hover {
+						background-position: 0 -787px;
+					}
+				}
+				.jp-previous {
+					left: 336px;
+					top: 212px;
+					background-position: 0 -585px;
+					&:hover {
+						background-position: 0 -560px;
+					}
+				}
+				.jp-next {
+					left: 381px;
+					top: 212px;
+					background-position: 0 -535px;
+					&:hover {
+						background-position: 0 -510px;
+					}
+				}
+				.jp-progress {
+					display: none;
+				}
+				.jp-current-time {
+					left: 193px;
+					top: 47px;
+					font-size: 0.64em;
+				}
+				.jp-duration {
+					left: 134px;	
+					top: 67px;	
+					font-size: 0.5em;
+				}
+				.jp-playlist-current {
+					
+				}
+				.jp-playlist {
+					top: 16em;
+					text-align: left;
+					ul {
+						padding: 0;
+					}
+					li {
+						padding: 1.3em 1em 1.4em 0.6em;
+						&.jp-playlist-current {
+							a.jp-link {
+								background: url('../images/generated/spr-s71e933dfa6.png') no-repeat 0 -350px;
+							}
+							.buy-button {
+								a {
+									background: $purple;
+								}
+							}
+						}
+						&:hover {
+							background: $dark-grey;
+							a {
+								background: url('../images/generated/spr-s71e933dfa6.png') no-repeat 0 -350px;
+							}
+							.buy-button {
+								a {
+									background: $purple;
+								}
+							}
+						}
+						a {
+							padding: 1.2em 1em 1.2em 5.5em;
+							background: url('../images/generated/spr-s71e933dfa6.png') no-repeat 0 -430px;
+						}
+					}
+					.buy-button {
+						float: right;
+						margin: 0;
+					}
+				}
+				.jp-volume-bar {
+					top: 331px;
+					left: 95px;
+					height: 25px;
+					width: 156px;
+					background: transparent;
+				}
+				.jp-volume-bar-value {
+					background: url('../images/volume-bar.png') no-repeat;
+					height: 25px;
+				}
+				.jp-mute {
+					top: 325px;
+					left: 53px;
+					background-position: 0 0;
+					height: 35px;
+					width: 29px;
+				}
+				.jp-unmute {
+					top: 325px;
+					left: 53px;
+					background-position: 0 -40px;
+					height: 35px;
+					width: 29px;
+				}
 			}
 		}
 	}

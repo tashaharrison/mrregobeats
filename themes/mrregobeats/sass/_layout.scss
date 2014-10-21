@@ -10,11 +10,13 @@
 	Frontpage
 ***************************/
 .view-homepage {
-	
+	margin-bottom: 38em;
 }
 
 @include at-breakpoint($tab) {
-	
+	.view-homepage {
+		margin-bottom: 25em;
+	}
 }
 @include at-breakpoint($desk) {
 	#block-views-blog-block-1 {
@@ -71,6 +73,13 @@
 /**************************
 	Category Page
 ***************************/
+.section-buy-beats {
+	.views-field-field-audio-length,
+	.views-field-field-audio-producer,
+	.views-field-field-audio-bpm {
+		
+	}
+}
 @include at-breakpoint($desk) {
 	.section-buy-beats {
 		.view-the-shop {
