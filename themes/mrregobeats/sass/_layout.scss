@@ -215,7 +215,7 @@
 /**************************
 	Contact
 ***************************/
-.node--webform {
+.tab-inactive {
 	input {
 		width: 100%;
 	}
@@ -230,6 +230,23 @@
 		.webform-client-form {
 			float: left;
 			width: 40%;
+		}
+	}
+}
+/**************************
+	User Pages
+***************************/
+@include at-breakpoint($tab) {
+	.view-user-profile {
+		.profile-wrapper {
+			text-align: center;
+		}
+		.xp-badges {
+			display: inline-block;
+			margin-right: 5%;	
+		}
+		.views-field-nothing-1 {
+			display: inline-block;
 		}
 	}
 }

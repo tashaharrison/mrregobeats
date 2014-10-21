@@ -413,7 +413,7 @@ div.jp-interface {
 	border: none;
 	background-color: transparent;
 }
-.view-homepage {
+.page-homepage {
 	.jp-audio {
 		margin: 0 auto;
 		width: 288px;
@@ -554,9 +554,7 @@ div.jp-interface {
 			}
 		}
 	}
-}
-@include at-breakpoint($tab) {
-	.view-homepage {
+	&.tab-active {
 		.jp-audio {
 			width: 565px;
 			.jp-type-playlist {
@@ -566,46 +564,45 @@ div.jp-interface {
 				a {
 					height: 25px;
 					width: 38px;
-					background: url('../images/generated/spr-s71e933dfa6.png')
 				}
 				.jp-play {
 					left: 334px;
 					top: 165px;
-					background-position: 0 -661px;
+					@include spr-sprite("play");
 					&:hover {
-						background-position: 0 -610px;
+						@include spr-sprite("play-hover");
 					}
 				}
 				.jp-pause {
 					left: 334px;
 					top: 165px;
-					background-position: 0 -712px;
+					@include spr-sprite("pause");
 					&:hover {
-						background-position: 0 -737px;
+						@include spr-sprite("pause-hover");
 					}
 				}
 				.jp-stop {
 					left: 382px;
 					top: 164px;
-					background-position: 0 -762px;
+					@include spr-sprite("stop");
 					&:hover {
-						background-position: 0 -787px;
+						@include spr-sprite("stop-hover");
 					}
 				}
 				.jp-previous {
 					left: 336px;
 					top: 212px;
-					background-position: 0 -585px;
+					@include spr-sprite("previous");
 					&:hover {
-						background-position: 0 -560px;
+						@include spr-sprite("previous-hover");
 					}
 				}
 				.jp-next {
 					left: 381px;
 					top: 212px;
-					background-position: 0 -535px;
+					@include spr-sprite("next");
 					&:hover {
-						background-position: 0 -510px;
+						@include spr-sprite("next-hover");
 					}
 				}
 				.jp-progress {
@@ -634,7 +631,7 @@ div.jp-interface {
 						padding: 1.3em 1em 1.4em 0.6em;
 						&.jp-playlist-current {
 							a.jp-link {
-								background: url('../images/generated/spr-s71e933dfa6.png') no-repeat 0 -350px;
+								@include spr-sprite("beats-play-hover");
 							}
 							.buy-button {
 								a {
@@ -645,7 +642,7 @@ div.jp-interface {
 						&:hover {
 							background: $dark-grey;
 							a {
-								background: url('../images/generated/spr-s71e933dfa6.png') no-repeat 0 -350px;
+								@include spr-sprite("beats-play-hover");
 							}
 							.buy-button {
 								a {
@@ -653,9 +650,9 @@ div.jp-interface {
 								}
 							}
 						}
-						a {
+						a.jp-link {
 							padding: 1.2em 1em 1.2em 5.5em;
-							background: url('../images/generated/spr-s71e933dfa6.png') no-repeat 0 -430px;
+							@include spr-sprite("beats-play");
 						}
 					}
 					.buy-button {
@@ -677,14 +674,14 @@ div.jp-interface {
 				.jp-mute {
 					top: 325px;
 					left: 53px;
-					background-position: 0 0;
+					@include spr-sprite("mute");
 					height: 35px;
 					width: 29px;
 				}
 				.jp-unmute {
 					top: 325px;
 					left: 53px;
-					background-position: 0 -40px;
+					@include spr-sprite("unmute");
 					height: 35px;
 					width: 29px;
 				}
@@ -811,6 +808,12 @@ div.jp-interface {
 		}
 	}
 }
+/* Hide Download button for not logged in users */
+.not-logged-in {
+	.download-beat {
+		display: none;
+	}
+}
 #block-views-kpi-block-block {
 	.views-row {
 		display: block;
@@ -845,7 +848,7 @@ html.js fieldset.collapsed .fieldset-legend {
 	Product Page
 ***************************/
 .node-type-product-display {
-	@extend .view-homepage;
+	@extend .page-homepage;
 	.jp-playlist {
 		display: none;
 	}
@@ -953,8 +956,23 @@ html.js fieldset.collapsed .fieldset-legend {
 /**************************
 	User Pages
 ***************************/
+.tab-inactive {
+	#login-links {
+		a {
+			display: block;
+		}
+	}
+}
 .view-user-profile {
 	.views-field-nothing {
 		text-align: center;
+	}
+	.views-field-nothing-1 {
+		background: $dark-grey;
+		border: 3px solid $light-grey;
+		padding: 0.5em;
+		ul {
+			text-align: left;
+		}
 	}
 }
