@@ -155,12 +155,14 @@ Drupal.behaviors.homeBanner = {
 		})(jQuery);
 		function textPrint(callback) {
 			$('.text2').typeOut();
-			setTimeout(function(){$('.slide1').fadeOut();}, 5000);
+			setTimeout(function(){$('.slide1').fadeOut(800);}, 5000);
 			setTimeout(function(){$('.slide2').fadeIn();
 			$('.slide2').children('img').addClass('active');
 			$('.slide2').children('img').addClass('delay');
 			}, 5000);
 			setTimeout(function(){$('.delay').showdelay();}, 5000);
+			setTimeout(function(){$('.slide2').fadeOut(800);}, 14000);
+			setTimeout(function(){$('.slide3').fadeIn(800);}, 15000);
 		}
 		
 		textPrint();

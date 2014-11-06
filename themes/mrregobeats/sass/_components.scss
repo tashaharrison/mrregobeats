@@ -408,6 +408,9 @@ table {
 	Homepage Banner
 ***************************/
 #block-block-1 {
+	height: 400px;
+	width: 1000px;
+	margin: 2em auto;
 	.slide {
 		height: 400px;
 		width: 900px;
@@ -421,11 +424,18 @@ table {
 		font-family: $header-font;
 		padding-top: 1em;
 		line-height: 2em;
+		height: 320px;
 	}
 	.slide2 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 		img {
 			opacity: 0;
 			transition: 2s 1s opacity;
+			padding: 0.2em 1em;
+			max-height: 100px;
+			width: auto;
 			&.delay {
 				display: none;
 			}
