@@ -404,7 +404,37 @@ table {
 		margin: 1em;
 	}
 }
-
+/**************************
+	Homepage Banner
+***************************/
+#block-block-1 {
+	.slide {
+		height: 400px;
+		width: 900px;
+		margin: 0 auto;
+	}
+	.slide1 {
+		border-top: 30px solid $pastel-blue;
+		border-bottom: 30px solid $pastel-blue;
+		background: #0808AB;
+		text-align: center;
+		font-family: $header-font;
+		padding-top: 1em;
+		line-height: 2em;
+	}
+	.slide2 {
+		img {
+			opacity: 0;
+			transition: 2s 1s opacity;
+			&.delay {
+				display: none;
+			}
+			&.active {
+				opacity: 1;
+			}
+		}
+	}
+}
 /**************************
 	The Player
 ***************************/
