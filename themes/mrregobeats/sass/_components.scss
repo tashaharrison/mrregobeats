@@ -444,6 +444,105 @@ table {
 			}
 		}
 	}
+	.slide3 {
+		position: relative;
+		.banner {
+			position: relative;
+		}
+		.mrbman {
+			position: absolute;
+			top: 2em;
+			left: 4em;
+		}
+		.pptext {
+			position: absolute;
+			top: 2em;
+			left: 12em;
+			font-family: $header-font;
+			line-height: 1.5em;
+			width: 700px;
+		}
+		.pplogo {
+			position: absolute;
+			top: 6em;
+			right: 19em;
+		}
+	}
+	.slide4 {
+		position: relative;
+		.banner {
+			position: relative;
+		}
+		.badges {
+			position: absolute;
+			top: 1em;
+			img {
+				padding: 0 2.2em;
+				opacity: 0;
+				transition: 2s opacity;
+				&.delay {
+					display: none;
+				}
+				&.active {
+					opacity: 1;
+				}
+			}
+		}
+		.xptext {
+			color: $black;
+			font-family: $header-font;
+			position: absolute;
+			top: 8em;
+			left: 5em;
+		}
+		.xppoints {
+			position: absolute;
+			top: 4em;
+			left: 8em;
+			li {
+				padding: 1em;
+			}
+		}
+	}
+}
+#block-views-kpi-block-block-1 {
+	.fieldset-legend {
+		font-family: $header-font;
+		color: $purple;
+		font-size: 0.9em;
+	}
+	fieldset {
+		border: none;
+		padding: 0;
+	}
+	.views-row {
+		padding: 1em 0.55em 1.5em;
+		margin: 1em 0;
+		width: 22.75%;
+		display: inline-block;
+		vertical-align: top;
+		font-size: 0.9em;
+		background: $dark-grey;
+		border: 3px solid $light-grey;
+		height: 310px;
+	}
+	ul {
+		margin: 1em 0;
+		padding-left: 2em;
+	}
+}
+.desk-inactive {
+	#block-block-1 {
+		display: none;
+	}
+	#block-views-kpi-block-block-1 {
+		display: none;
+	}
+}
+.no-js {
+	#block-block-1 {
+		display: none;
+	}
 }
 /**************************
 	The Player

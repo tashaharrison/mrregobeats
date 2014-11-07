@@ -86,7 +86,7 @@ Drupal.behaviors.homeBanner = {
 		$('.slide2').hide();
 		$('.slide3').hide();
 		$('.slide4').hide();
-		$('.slide5').hide();
+		$('#block-views-kpi-block-block-1').hide();
 		
 		$.fn.typeOut = function( options ){
     
@@ -154,20 +154,37 @@ Drupal.behaviors.homeBanner = {
 			};
 		})(jQuery);
 		function textPrint(callback) {
-			$('.text2').typeOut();
-			setTimeout(function(){$('.slide1').fadeOut(800);}, 5000);
+			setTimeout(function(){$('.text2').typeOut();}, 100);
+			setTimeout(function(){$('.slide1').fadeOut(800);}, 6000);
 			setTimeout(function(){$('.slide2').fadeIn();
 			$('.slide2').children('img').addClass('active');
 			$('.slide2').children('img').addClass('delay');
-			}, 5000);
-			setTimeout(function(){$('.delay').showdelay();}, 5000);
-			setTimeout(function(){$('.slide2').fadeOut(800);}, 14000);
-			setTimeout(function(){$('.slide3').fadeIn(800);}, 15000);
+			}, 6000);
+			setTimeout(function(){$('.delay').showdelay();}, 6000);
+			setTimeout(function(){$('.slide2').fadeOut(800);}, 15000);
+			setTimeout(function(){$('.slide3').fadeIn(800);
+			$('.mrbman').hide();
+			$('.pptext ').hide();
+			$('.pplogo').hide();
+			}, 16000);
+			setTimeout(function(){$('.mrbman').fadeIn(800);}, 17000);
+			setTimeout(function(){$('.pptext').show().typeOut();}, 18000);
+			setTimeout(function(){$('.pplogo').fadeIn(800);}, 27000);
+			setTimeout(function(){$('.slide3').fadeOut(800);}, 29000);
+			setTimeout(function(){$('.slide4').fadeIn(800);
+			$('.badges').children('img').addClass('active');
+			$('.badges').children('img').addClass('delay');
+			$('.xpintro').hide();
+			$('.xppoints').hide();
+			}, 30000);
+			setTimeout(function(){$('.delay').showdelay();}, 30100);
+			setTimeout(function(){$('.xpintro').show().typeOut();}, 32000);
+			setTimeout(function(){$('.xppoints').fadeIn(800);}, 38000);
+			setTimeout(function(){$('.slide4').fadeOut(1000);}, 40000);
+			setTimeout(function(){$('#block-block-1').hide();}, 41000);
+			setTimeout(function(){$('#block-views-kpi-block-block-1').fadeIn(800);}, 41000);
 		}
-		
 		textPrint();
-		
-		
 	}
 };
 
