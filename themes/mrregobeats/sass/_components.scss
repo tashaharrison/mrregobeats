@@ -216,6 +216,9 @@ table {
 		.twitter {
 			@include spr-sprite("twitter");	
 		}
+		.youtube {
+			@include spr-sprite("youtube");
+		}
 	}
 	#block-commerce-cart-cart {	
 		float: right;
@@ -654,7 +657,7 @@ div.jp-interface {
 					}
 					a {
 						color: $white;
-						font-size: 0.8em;
+						font-size: 0.7em;
 						padding: 0;
 					}
 				}
@@ -767,7 +770,7 @@ div.jp-interface {
 						padding: 0;
 					}
 					li {
-						padding: 1.3em 1em 1.4em 0.6em;
+						padding: 1.3em 1em 1.6em 0.6em;
 						&.jp-playlist-current {
 							a.jp-link {
 								@include spr-sprite("beats-play-hover");
@@ -790,7 +793,7 @@ div.jp-interface {
 							}
 						}
 						a.jp-link {
-							padding: 1.2em 1em 1.2em 5.5em;
+							padding: 1.5em 1em 1.5em 5.5em;
 							@include spr-sprite("beats-play");
 						}
 					}
@@ -1039,6 +1042,7 @@ html.js fieldset.collapsed .fieldset-legend {
 		}
 		.field--name-field-audio-post {
 			@extend .field--name-field-audio-file;
+			float: none;
 		}
 	}
 }

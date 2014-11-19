@@ -1,6 +1,6 @@
 (function ($) {
 
-Drupal.behaviors.stickyMenu = {
+/* Drupal.behaviors.stickyMenu = {
 	attach: function() {
 		$(document).ready(function(){
 			var sticky_container = $('#block-views-kpi-block-block');
@@ -10,7 +10,7 @@ Drupal.behaviors.stickyMenu = {
 			});
 		});
 	}
-};
+}; */
 
 
 Drupal.behaviors.commerce_add_to_cart_confirmation_overlay = {
