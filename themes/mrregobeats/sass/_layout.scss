@@ -89,6 +89,13 @@
 		}
 	}
 }
+.desk-inactive.tab-active {
+	&.section-buy-beats {
+		td {
+			width: 250px!important;
+		}
+	}
+}
 @include at-breakpoint($desk) {
 	.section-buy-beats {
 		.view-the-shop {
@@ -122,12 +129,16 @@
 		.commerce-product-field-commerce-price {
 			float: left;
 			margin: 1em 3em 1em 0;
-		}
-		.commerce-product-field-commerce-price {
-			float: left;
 			#edit-submit {
 				margin: 0;
 			}
+		}
+		.field--name-field-product-reference {
+			clear: both;
+			margin: 0;
+		}
+		.field--name-field-product-reference input[type="submit"] {
+			margin: 0;
 		}
 		.service-links {
 			clear: both;

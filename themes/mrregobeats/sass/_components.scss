@@ -273,7 +273,7 @@ table {
 		margin-top: -5em;
 		h2 {
 			font-size: 0.6em;
-			margin: 0 0 0.5em 0;
+			margin: 0 0 0.7em 0;
 			padding: 0;
 			text-align: left;
 		}
@@ -548,10 +548,10 @@ table {
 }
 .desk-inactive {
 	#block-block-1 {
-		display: none;
+		display: none!important;
 	}
 	#block-views-kpi-block-block-1 {
-		display: none;
+		display: none!important;
 	}
 }
 .no-js {
