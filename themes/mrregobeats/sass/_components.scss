@@ -131,6 +131,7 @@ body {
 	Tables
 ***************************/
 table {
+	margin-bottom: 3em;
 	width: 100%;
 	a.active {
 		color: $white;
@@ -879,6 +880,7 @@ div.jp-interface {
 	.views-field-view-node {
 		a {
 			@extend input[type="submit"];
+			margin: 0;
 		}
 	}
 	.views-field-title {
@@ -1129,5 +1131,11 @@ html.js fieldset.collapsed .fieldset-legend {
 		ul {
 			text-align: left;
 		}
+	}
+}
+.view-commerce-license-my-files {
+	caption {
+		font-family: $header-font;
+		padding-bottom: 1em;
 	}
 }
