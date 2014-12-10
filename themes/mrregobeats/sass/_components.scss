@@ -89,7 +89,17 @@ body {
 }
 .messages--status, .ok {
 	color: white;
-	@include spr-sprite("tick");	
+	background-image: none;
+	position: relative;
+	&:before {
+		content: '';
+		@include spr-sprite("tick");	
+		position: absolute;
+		height: 44px;
+		width: 50px;
+		left: 0;
+		top: 0;
+	}
 }
 .messages--status, tr.ok {
 	
