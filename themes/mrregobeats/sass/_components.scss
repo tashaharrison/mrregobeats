@@ -202,6 +202,11 @@ table {
 .l-branding {
 	text-align: center;
 }
+.logged-in.tab-active.desk-inactive {
+	.l-branding {
+		margin-top: 5em;
+	}
+}
 .l-header {
 	padding: 0!important;
 }
@@ -685,10 +690,10 @@ div.jp-interface {
 					}
 				}
 				.buy-button {
-					margin: 1em 0;
 					a {
 						@extend input[type="submit"];
 						background: lighten($light-grey, 20%);
+						margin: 1em 0;
 					}
 				}
 			}
@@ -801,6 +806,7 @@ div.jp-interface {
 							.buy-button {
 								a {
 									background: $purple;
+									margin-left: 0;
 								}
 							}
 						}

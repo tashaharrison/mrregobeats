@@ -11,6 +11,9 @@
 ***************************/
 .view-homepage {
 	margin-bottom: 38em;
+	.buy-button {
+		margin: 1em 0;
+	}
 }
 
 @include at-breakpoint($tab) {
@@ -247,6 +250,25 @@
 /**************************
 	User Pages
 ***************************/
+.l-region--header {
+	#block-user-badges-my-badges {
+		display: none;
+	}
+	.block--userpoints-meter {
+		display: none;
+	}
+}
+.page-user-my-beats {
+	.views-field-filesize {
+		display: none;
+	}
+	.views-field-commerce-file a {
+		font-size: 0.8em;
+	}
+	caption {
+		font-size: 0.8em;
+	}
+}
 @include at-breakpoint($tab) {
 	.view-user-profile {
 		.profile-wrapper {
@@ -258,6 +280,25 @@
 		}
 		.views-field-nothing-1 {
 			display: inline-block;
+		}
+	}
+	.l-region--header {
+		#block-user-badges-my-badges {
+			display: block;
+		}
+		.block--userpoints-meter {
+			display: block;
+		}
+	}
+	.page-user-my-beats {
+		.views-field-filesize {
+			display: block;
+		}
+		.views-field-commerce-file a {
+			font-size: 1em;
+		}
+		caption {
+			font-size: 1em;
 		}
 	}
 }
