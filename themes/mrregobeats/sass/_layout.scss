@@ -7,6 +7,19 @@
  * relevant SCSS for that component.
  ******************************************************************************/
 /**************************
+	Header
+***************************/
+@include at-breakpoint($desk) {
+	.l-header-top-wrapper {
+		position: fixed;
+		width: 100%;
+		z-index: 10;
+	}
+	.l-branding {
+		margin-top: 2em;
+	}
+}
+/**************************
 	Frontpage
 ***************************/
 .view-homepage {

@@ -75,7 +75,8 @@ $desk: 70em, 16; // At 70em use 16 columns.
 }
 
 @include at-breakpoint($desk) {
-	.l-page {
+	.l-page,
+	.l-header-top {
 		@include set-container-width;
 		margin: 0 auto;
 	}

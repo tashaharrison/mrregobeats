@@ -1,9 +1,11 @@
+<div class="l-header-top-wrapper">
+	<div class="l-header-top">
+		<?php print render($page['header']); ?>
+	</div>
+</div>
 <div class="l-page">
   <header class="l-header-wrapper" role="banner">
 	<div class="l-header">
-		<div class="l-header-top">
-		  <?php print render($page['header']); ?>
-		</div>
 		<div class="l-branding">
 		  <?php if ($logo): ?>
 			<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
