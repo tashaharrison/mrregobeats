@@ -396,9 +396,6 @@ table {
 	.l-main {
 		padding: 0;
 		.view-homepage {
-			.view-content {
-				margin-bottom: 10em;
-			}
 			.mrb-playlist {
 				li {
 					list-style-type: none;
@@ -417,10 +414,13 @@ table {
 			}
 		}
 	}
+	#block-views-blog-block-1 {
+		margin-top: 2em;
+	}
 	#block-views-about-us-homepage-block-block {
 		background: $dark-grey;
 		border: 3px solid $light-grey;
-		margin: 1em;
+		margin: 3em 1em 1em;
 	}
 	.view-tweets {
 		.views-row {
@@ -591,7 +591,7 @@ div.jp-interface {
 			background: url('../images/mpc2000-player-sm.png') no-repeat 0 0;
 			color: $black;
 			font-family: $header-font;
-			height: 206px;
+			height: auto;
 			width: 288px;
 			a {
 				height: 12px;
@@ -654,8 +654,7 @@ div.jp-interface {
 				
 			}
 			.jp-playlist {
-				position: relative;
-				top: 6em;
+				margin-top: 6em;
 				color: $white;
 				background: none;
 				border: none;
@@ -729,7 +728,7 @@ div.jp-interface {
 			width: 565px;
 			.jp-type-playlist {
 				background: url('../images/mpc2000-player.png') no-repeat 0 0;
-				height: 417px;
+				height: auto;
 				width: 575px;
 				a {
 					height: 25px;
@@ -792,7 +791,7 @@ div.jp-interface {
 					
 				}
 				.jp-playlist {
-					top: 16em;
+					margin-top: 16em;
 					text-align: left;
 					ul {
 						padding: 0;
@@ -1021,6 +1020,9 @@ html.js fieldset.collapsed .fieldset-legend {
 ***************************/
 .node-type-product-display {
 	@extend .page-homepage;
+	.jp-audio .jp-type-playlist {
+		height: 225px!important;
+	}
 	.jp-playlist {
 		display: none;
 	}
@@ -1046,6 +1048,13 @@ html.js fieldset.collapsed .fieldset-legend {
 		input[type="submit"] {
 			margin: 0 2em;
 		}
+	}
+}
+.tab-active {
+	&.node-type-product-display {
+		.jp-audio .jp-type-playlist {
+		height: 400px!important;
+	}
 	}
 }
 .service-links {

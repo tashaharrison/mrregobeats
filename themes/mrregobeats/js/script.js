@@ -49,6 +49,21 @@ Drupal.behaviors.buybuttonHome = {
 		$('.views-row-3.buy-button').insertAfter('.views-row-3.jp-item .jp-link');
 		$('.views-row-4.buy-button').insertAfter('.views-row-4.jp-item .jp-link');
 		$('.views-row-5.buy-button').insertAfter('.views-row-5.jp-item .jp-link');
+		$('.views-row-6.buy-button').insertAfter('.views-row-6.jp-item .jp-link');
+		$('.views-row-7.buy-button').insertAfter('.views-row-7.jp-item .jp-link');
+		$('.views-row-8.buy-button').insertAfter('.views-row-8.jp-item .jp-link');
+		$('.views-row-9.buy-button').insertAfter('.views-row-9.jp-item .jp-link');
+		$('.views-row-10.buy-button').insertAfter('.views-row-10.jp-item .jp-link');
+		$('.views-row-11.buy-button').insertAfter('.views-row-11.jp-item .jp-link');
+		$('.views-row-12.buy-button').insertAfter('.views-row-12.jp-item .jp-link');
+		$('.views-row-13.buy-button').insertAfter('.views-row-13.jp-item .jp-link');
+		$('.views-row-14.buy-button').insertAfter('.views-row-14.jp-item .jp-link');
+		$('.views-row-15.buy-button').insertAfter('.views-row-15.jp-item .jp-link');
+		$('.views-row-16.buy-button').insertAfter('.views-row-16.jp-item .jp-link');
+		$('.views-row-17.buy-button').insertAfter('.views-row-17.jp-item .jp-link');
+		$('.views-row-18.buy-button').insertAfter('.views-row-18.jp-item .jp-link');
+		$('.views-row-19.buy-button').insertAfter('.views-row-19.jp-item .jp-link');
+		$('.views-row-20.buy-button').insertAfter('.views-row-20.jp-item .jp-link');
 		
 		
 	}

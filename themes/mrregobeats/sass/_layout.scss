@@ -10,7 +10,7 @@
 	Frontpage
 ***************************/
 .view-homepage {
-	margin-bottom: 38em;
+	margin-bottom: 2em;
 	.buy-button {
 		margin: 1em 0;
 	}
@@ -18,7 +18,7 @@
 
 @include at-breakpoint($tab) {
 	.view-homepage {
-		margin-bottom: 25em;
+		margin-bottom: 2em;
 	}
 }
 @include at-breakpoint($desk) {
