@@ -224,7 +224,7 @@ table {
 		.sm_links {
 			height: 22px;
 			@include hide-text(left);
-			width: 22px;
+			width: 25px;
 		}
 		.facebook {
 			@include spr-sprite("facebook");	
@@ -234,6 +234,9 @@ table {
 		}
 		.youtube {
 			@include spr-sprite("youtube");
+		}
+		.soundcloud {
+			@include spr-sprite("soundcloud");
 		}
 	}
 	#block-commerce-cart-cart {	
@@ -271,6 +274,7 @@ table {
 		padding-right: 0.5em;
 		a {
 			color: $blue;
+			font-weight: bold;
 			&:hover {
 				color: $blue;
 			}
