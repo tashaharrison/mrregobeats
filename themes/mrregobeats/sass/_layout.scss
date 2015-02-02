@@ -9,14 +9,27 @@
 /**************************
 	Header
 ***************************/
-@include at-breakpoint($desk) {
-	.l-header-top-wrapper {
-		position: fixed;
-		width: 100%;
-		z-index: 10;
+.l-region--header {
+	height: 30px;
+	padding-top: 0.5em;
+}
+.l-region--highlighted {
+	margin-bottom: 2em;
+}
+@include at-breakpoint($tab) {
+	.l-region--header {
+		height: 28px;
+		padding-top: 0.3em;
 	}
-	.l-branding {
-		margin-top: 2em;
+	.l-region--highlighted {
+		margin-bottom: 0;
+		position: relative;
+		top: -13em;
+	}
+}
+@include at-breakpoint($desk) {
+	.l-region--highlighted {
+		top: -9em;
 	}
 }
 /**************************

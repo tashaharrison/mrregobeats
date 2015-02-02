@@ -22,12 +22,12 @@
 			<?php endif; ?>
 		  <?php endif; ?>
 		</div>
+		<?php print render($page['highlighted']); ?>
 		<?php print render($page['navigation']); ?>
 	</div>
   </header>
   <div class="l-main">
     <div class="l-content" role="main">
-      <?php print render($page['highlighted']); ?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>

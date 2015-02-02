@@ -201,10 +201,17 @@ table {
 ***************************/
 .l-branding {
 	text-align: center;
+	margin-top: 2em;
+}
+.l-header-top-wrapper {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	top: 0;
 }
 .logged-in.tab-active.desk-inactive {
 	.l-branding {
-		margin-top: 5em;
+		margin-top: 6em;
 	}
 }
 .l-header {
@@ -214,7 +221,6 @@ table {
 	background: $purple;
 }
 .l-region--header {
-	height: 26px;
 	#block-boxes-social-icons {
 		float: left;
 		div {
@@ -237,6 +243,12 @@ table {
 		}
 		.soundcloud {
 			@include spr-sprite("soundcloud");
+		}
+		.soundclick {
+			@include spr-sprite("soundclick");
+		}
+		.reverbnation {
+			@include spr-sprite("reverbnation");
 		}
 	}
 	#block-commerce-cart-cart {	
@@ -283,45 +295,45 @@ table {
 	#block-logintoboggan-logintoboggan-logged-in {
 		@extend #block-user-login;
 	}
-	#block-user-badges-my-badges {
-		clear: right;
-		padding: 0.5em;	
-		text-align: right;		
+}
+#block-user-badges-my-badges {
+	clear: right;
+	padding: 0.5em;	
+	text-align: right;		
+}
+#block-userpoints-meter-1 {
+	padding-left: 0.5em;
+	margin-top: -5em;
+	h2 {
+		font-size: 0.6em;
+		margin: 0 0 0.7em 0;
+		padding: 0;
+		text-align: left;
 	}
-	#block-userpoints-meter-1 {
-		padding-left: 0.5em;
-		margin-top: -5em;
-		h2 {
-			font-size: 0.6em;
-			margin: 0 0 0.7em 0;
-			padding: 0;
-			text-align: left;
-		}
-		.points-left {
-			background: $purple;
-			border: none;
-			height: 20px;
-		}
-		.userpoints-meter-meter-bar {
-			background: $dark-grey;
-		}
-		.points-left-wrapper {
-			border: none;
-		}
-		.points-text {
-			font-size: 0.8em;
-			text-shadow: none;
-		}
+	.points-left {
+		background: $purple;
+		border: none;
+		height: 20px;
 	}
-	#block-userpoints-meter-2 {
-		@extend #block-userpoints-meter-1;
+	.userpoints-meter-meter-bar {
+		background: $dark-grey;
 	}
-	#block-userpoints-meter-3 {
-		@extend #block-userpoints-meter-1;
+	.points-left-wrapper {
+		border: none;
 	}
-	#block-userpoints-meter-4 {
-		@extend #block-userpoints-meter-1;
+	.points-text {
+		font-size: 0.8em;
+		text-shadow: none;
 	}
+}
+#block-userpoints-meter-2 {
+	@extend #block-userpoints-meter-1;
+}
+#block-userpoints-meter-3 {
+	@extend #block-userpoints-meter-1;
+}
+#block-userpoints-meter-4 {
+	@extend #block-userpoints-meter-1;
 }
 #block-system-main-menu {
 		.menu {
