@@ -296,6 +296,14 @@ table {
 		@extend #block-user-login;
 	}
 }
+.mobSmall-active.desk-inactive.tab-inactive {
+	.soundclick {
+		display: none;
+	}
+	.reverbnation {
+		display: none;
+	}
+}
 #block-user-badges-my-badges {
 	clear: right;
 	padding: 0.5em;	
