@@ -10,21 +10,46 @@
 	Header
 ***************************/
 .l-region--header {
-	height: 30px;
+	height: 60px;
 	padding-top: 0.5em;
+	#block-user-login {	
+		float: left;
+	}
+	#block-boxes-social-icons {
+		padding-bottom: 0.5em;
+	}
+}
+.l-branding {
+	margin-top: 4.5em;
 }
 .l-region--highlighted {
-	margin-bottom: 2em;
+	display: none;
 }
 @include at-breakpoint($tab) {
 	.l-region--header {
 		height: 28px;
 		padding-top: 0.3em;
+		.soundclick {
+			display: block;
+		}
+		.reverbnation {
+			display: block;
+		}
+		#block-user-login {	
+			float: right;
+		}
+		#block-boxes-social-icons {
+			padding-bottom: 0;
+		}
 	}
 	.l-region--highlighted {
 		margin-bottom: 0;
 		position: relative;
 		top: -13em;
+		display: block;
+	}
+	.l-branding {
+		margin-top: 2em;
 	}
 }
 @include at-breakpoint($desk) {

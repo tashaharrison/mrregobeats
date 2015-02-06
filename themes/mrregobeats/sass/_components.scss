@@ -201,7 +201,6 @@ table {
 ***************************/
 .l-branding {
 	text-align: center;
-	margin-top: 2em;
 }
 .l-header-top-wrapper {
 	position: fixed;
@@ -282,7 +281,6 @@ table {
 		}
 	}
 	#block-user-login {
-		float: right;
 		padding-right: 0.5em;
 		a {
 			color: $blue;
@@ -294,14 +292,6 @@ table {
 	}
 	#block-logintoboggan-logintoboggan-logged-in {
 		@extend #block-user-login;
-	}
-}
-.mobSmall-active.desk-inactive.tab-inactive {
-	.soundclick {
-		display: none;
-	}
-	.reverbnation {
-		display: none;
 	}
 }
 #block-user-badges-my-badges {
