@@ -1,4 +1,3 @@
-# Ignore the modules folder, so it can be generated and updated by the profile's make file
-modules
+
 
 
