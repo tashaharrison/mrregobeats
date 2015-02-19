@@ -1,0 +1,215 @@
+<?php
+
+
+/**
+ * implementation of hook_menu()
+ */
+
+function userpoints_meter_menu() {
+  $items['admin/config/people/userpoints/userpoints_meter'] = array(
+    'title' => 'Userpoints Meter',
+    'description' => 'Settings for Userpoints Meter',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('userpoints_meter_admin_settings_form'),
+    'access arguments' => array('administer Image Styles Protection'),
+    'file' => 'userpoints_meter.admin.inc',
+    'type' => MENU_LOCAL_TASK,
+  );
+
+  return $items;
+}
+
+
+/**
+ * Implementation of hook_block_info()
+ */
+
+function userpoints_meter_block_info() {
+
+  $blocks = array();
+
+  for ($i = 1; $i <= variable_get('userpoints_meter_numer_blocks', 1); $i++) {
+    $blocks[$i] = array(
+      'info' => t('Userpoints Meter '. $i),
+      'cache' => DRUPAL_NO_CACHE, //This changes a lot so no cache
+    );
+  }
+
+  return $blocks;
+}
+
+
+/**
+ * Implementation of hook_block_view()
+ */
+
+function userpoints_meter_block_view($delta) {
+  $block = array();
+
+  //get the data, current users id and the categorization taxonomy id
+  global $user;
+  $uid = $user->uid;
+  $tid = variable_get('userpoints_meter_categories_' . $delta, userpoints_get_default_tid());
+
+  //The $delta parameter tells us which block is being requested.
+  $block['subject'] = t('Userpoints Meter ' . $delta);
+
+  //collect all settings we need to pass to the theme function
+  $points = userpoints_get_current_points($uid, $tid); //get users points
+  $max_points = variable_get('userpoints_meter_max_points_' . $delta, 1000);
+  $size = variable_get('userpoints_meter_size_' . $delta, 250);
+  $unit = variable_get('userpoints_meter_unit_name_' . $delta, 'Points');
+  $unit_divisor = variable_get('userpoints_meter_unit_' . $delta, 1);
+
+  $block['content'] = theme('userpoints_meter_content', array(
+    'points' => $points,
+    'size' => $size,
+    'unit' => $unit,
+    'max_points' => $max_points,
+    'unit_divisor' => $unit_divisor,
+    'delta' => $delta,
+    )
+  );
+
+  return $block;
+}
+
+/**
+ * Implementation of hook_block_configure()
+ */
+
+function userpoints_meter_block_configure($delta) {
+
+  $form = array();
+
+    //category to use for showing points
+    $options = userpoints_get_categories();
+    //add option to shop all
+    $options['all'] = 'All Categories';
+
+    $form['userpoints_meter_categories_' . $delta] = array(
+      '#type' => 'select',
+      '#title' => t('Category'),
+      '#options' => $options,
+      '#default_value' => variable_get('userpoints_meter_categories_' . $delta, userpoints_get_default_tid()),
+      '#description' => t('The !points category that should apply to this transaction.', userpoints_translation()),
+      '#weight' => 0,
+    );
+    $form['userpoints_meter_size_' . $delta] = array(
+      '#type' => 'textfield',
+      '#title' => 'Size',
+      '#description' => t('Size (without px) of the whole bar'),
+      '#default_value' => variable_get('userpoints_meter_size_' . $delta, 250),
+    );
+    $form['userpoints_meter_max_points_' . $delta] = array(
+      '#type' => 'textfield',
+      '#title' => 'Maximum Points',
+      '#description' => t('The maximum amout of Points a user can have. Without this value, a bar calculation would not be possible'),
+      '#default_value' => variable_get('userpoints_meter_max_points_' . $delta, 1000),
+    );
+    $form['userpoints_meter_unit_' . $delta] = array(
+      '#type' => 'textfield',
+      '#title' => 'Unit divisor',
+      '#description' => t('If you want to display the text inside the bar in a special format you need to put a divisor here
+                               For Example. If you use userpoints to control download traffic in some way and you chose the user can
+                               download 15.000 points (kb) a day but you want the Text to display 15 MB, you put 1000 in here.
+          '),
+      '#default_value' => variable_get('userpoints_meter_unit_' . $delta, 1),
+    );
+    $form['userpoints_meter_unit_name_' . $delta] = array(
+      '#type' => 'textfield',
+      '#title' => 'Name for Unit',
+      '#description' => t('A Unit like: MB, kb, Euro, Dollar, Inch ...'),
+      '#default_value' => variable_get('userpoints_meter_unit_name_' . $delta, 'Points'),
+    );
+
+  return $form;
+}
+
+/**
+ * Implementation of hook_block_save()
+ */
+//@todo can we remove the int type casts
+
+function userpoints_meter_block_save($delta, $edit) {
+
+    variable_set('userpoints_meter_size_' . $delta, (int)$edit['userpoints_meter_size_' . $delta]);
+    variable_set('userpoints_meter_max_points_' . $delta, (int)$edit['userpoints_meter_max_points_' . $delta]);
+    variable_set('userpoints_meter_unit_' . $delta, (int)$edit['userpoints_meter_unit_' . $delta]);
+    variable_set('userpoints_meter_unit_name_' . $delta, $edit['userpoints_meter_unit_name_' . $delta]);
+    variable_set('userpoints_meter_categories_' . $delta, $edit['userpoints_meter_categories_' . $delta]);
+
+  return;
+}
+
+/******************************************************************************
+                    * PERMISSIONS *
+ ******************************************************************************/
+
+/**
+ * implementation of hook_permission()
+ */
+
+// not needed, use core block roles tab in the config
+
+
+/******************************************************************************
+                    * THEMING FUNCTIONS *
+ ******************************************************************************/
+
+
+/**
+ * Implementation of hook theme()
+ */
+
+function userpoints_meter_theme() {
+  return array(
+    'userpoints_meter_content' => array(
+      'variable' => array(
+        'points' => NULL,
+        'size' => NULL,
+        'unit' => NULL,
+        'max_points' => NULL,
+        'unit_divisior' => NULL,
+      ),
+    ),
+  );
+}
+
+/**
+ * Theming function for theming the block
+ */
+
+function theme_userpoints_meter_content($variables) {
+
+  //get all settings
+  $points = $variables['points'];
+  $max_points = $variables['max_points'];
+  $size = $variables['size'];
+  $unit = $variables['unit'];
+  $unit_divisor = $variables['unit_divisor'];
+  $delta = $variables['delta'];
+
+  $module_path = drupal_get_path('module', 'userpoints_meter');
+  $full_path = $module_path . '/userpoints_meter.css';
+  drupal_add_css($full_path);
+
+  //calculate width of green meter bar
+  //simple "Cross-multiplicastion" -> http://en.wikipedia.org/wiki/Cross-multiplication
+  $width = round(((($points * 100) / $max_points) * $size) / 100);
+
+  //rewrite points/max points with the unit divisor
+  if ($unit_divisor > 1) {
+    $points = round(($points / $unit_divisor), 2);
+    $max_points = round(($max_points / $unit_divisor), 2);
+  }
+
+  $id = 'meter_bar_' . $delta;
+
+  $output = '<div class="userpoints-meter-meter-bar" id=' . $id . ' style="width:' . $size . 'px;">
+                <span class="points-text" style="width:' . $size . 'px;">' . $points . ' ' . $unit . ' /' . $max_points . ' ' . $unit . '</span>
+                <div class="points-left-wrapper"  style="width:' . $width . 'px;"><div class="points-left"></div></div>
+            </div>';
+
+  return $output;
+}

@@ -1,0 +1,20 @@
+<?php
+function empty_cart_theme_registry_alter(&$theme_registry) {
+  global $theme_key;
+  static $executed = array();
+  // Preventing double execution.
+  if (isset($executed[$theme_key])) {
+    return;
+  }
+  $executed[$theme_key] = TRUE;
+//file_put_contents("/tmp/eml-tr", print_r($theme_registry, true ) );
+$theme_registry["commerce_cart_empty_page"]['function'] = "custom_module_commerce_cart_empty_page";
+$theme_registry["commerce_cart_empty_block"]['function'] = "custom_module_commerce_cart_empty_block";
+}
+function custom_module_commerce_cart_empty_page() {
+  return '<div class="cart-empty-page">' . t('Your shopping cart is empty.') . '</div>';
+}
+function custom_module_commerce_cart_empty_block() {
+  return '<div class="cart-empty-page">' . '<span>' . '<a href="/cart">' .'<img src="/profiles/mrregobeats/modules/custom/empty_cart/cart-icon.png"/>' . '</a>' . '</span>' . '</div>';
+}
+?>
