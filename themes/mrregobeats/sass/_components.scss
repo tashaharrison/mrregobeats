@@ -294,14 +294,25 @@ table {
 		@extend #block-user-login;
 	}
 }
+#block-boxes-facebook-page-like {
+	position: absolute;
+	right: 0;
+	top: 14em;
+}
+#block-boxes-youtube-subscribe {
+	position: absolute;
+	right: 5.2em;
+	top: 12em;
+}
 #block-user-badges-my-badges {
-	clear: right;
 	padding: 0.5em;	
-	text-align: right;		
+	position: absolute;
+	top: 15em;		
 }
 #block-userpoints-meter-1 {
 	padding-left: 0.5em;
-	margin-top: -5em;
+	position: absolute;
+	top: 12em;
 	h2 {
 		font-size: 0.6em;
 		margin: 0 0 0.7em 0;
@@ -337,7 +348,7 @@ table {
 		.menu {
 			text-align: center;
 			padding: 0;
-			margin: 0 0 0.9em;
+			margin: 0.7em 0 0.9em;
 			a {
 				padding: 0 0.9em;
 			}

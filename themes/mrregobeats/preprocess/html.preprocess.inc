@@ -1,5 +1,5 @@
 <?php
-function mrregobeats_PREPROCESS_HTML(&$variables) {
+function mrregobeats_PREPROCESS_HTML(&$vars) {
 	$path = drupal_get_path('theme', 'mrregobeats');
 		$options = array('group' => JS_LIBRARY);
 
@@ -15,7 +15,9 @@ function mrregobeats_PREPROCESS_HTML(&$variables) {
 			'tab' => 'all and (min-width: 44em)',
 			'desk' => 'all and (min-width: 70em)',
 		))), 'setting');
-
-
-}
+	
+	drupal_add_js('https://apis.google.com/js/platform.js');
+	
+}	
+	
 ?>
