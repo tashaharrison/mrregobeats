@@ -52,6 +52,15 @@
 		left: 0.7em;
 		top: 17em;
 	}
+	#block-user-badges-my-badges {
+		padding: 0.5em;	
+		position: absolute;
+		top: 15.5em;		
+	}
+	#block-userpoints-meter-1 {
+		position: absolute;
+		display: none;
+	}
 	.l-region--highlighted {
 		margin-bottom: 0;
 		position: relative;
@@ -61,18 +70,34 @@
 	.l-branding {
 		margin-top: 2em;
 	}
+	.logged-in {
+		#block-boxes-facebook-page-like {
+			display: none;
+		}
+		#block-boxes-youtube-subscribe {
+			display: none;
+		}
+	}
 }
 @include at-breakpoint($desk) {
 	.l-region--highlighted {
 		top: -9em;
 	}
 	#block-boxes-facebook-page-like {
-		right: 0;
+		left: 62em;
 		top: 14em;
 	}
 	#block-boxes-youtube-subscribe {
-		right: 5.2em;
+		left: 62.5em;
 		top: 12em;
+	}
+	#block-user-badges-my-badges {
+		top: 15em;		
+	}
+	#block-userpoints-meter-1 {
+		padding-left: 0.5em;
+		top: 12em;
+		display: block;
 	}
 }
 /**************************

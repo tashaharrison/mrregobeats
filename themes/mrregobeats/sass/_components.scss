@@ -210,7 +210,7 @@ table {
 }
 .logged-in.tab-active.desk-inactive {
 	.l-branding {
-		margin-top: 6em;
+		margin-top: 3em;
 	}
 }
 .l-header {
@@ -294,15 +294,7 @@ table {
 		@extend #block-user-login;
 	}
 }
-#block-user-badges-my-badges {
-	padding: 0.5em;	
-	position: absolute;
-	top: 15em;		
-}
 #block-userpoints-meter-1 {
-	padding-left: 0.5em;
-	position: absolute;
-	top: 12em;
 	h2 {
 		font-size: 0.6em;
 		margin: 0 0 0.7em 0;
