@@ -42,6 +42,16 @@
 			padding-bottom: 0;
 		}
 	}
+	#block-boxes-facebook-page-like {
+		position: absolute;
+		left: 0;
+		top: 19em;
+	}
+	#block-boxes-youtube-subscribe {
+		position: absolute;
+		left: 0.7em;
+		top: 17em;
+	}
 	.l-region--highlighted {
 		margin-bottom: 0;
 		position: relative;
@@ -55,6 +65,14 @@
 @include at-breakpoint($desk) {
 	.l-region--highlighted {
 		top: -9em;
+	}
+	#block-boxes-facebook-page-like {
+		right: 0;
+		top: 14em;
+	}
+	#block-boxes-youtube-subscribe {
+		right: 5.2em;
+		top: 12em;
 	}
 }
 /**************************
