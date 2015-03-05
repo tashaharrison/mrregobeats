@@ -175,8 +175,8 @@ input[type="submit"], .page-homepage .jp-audio .jp-type-playlist .jp-playlist .b
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.34-2\.0-omega4-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\0000345}}
   #block-boxes-facebook-page-like {
     position: absolute;
-    left: 0;
-    top: 19em;
+    left: 0.7em;
+    top: 19.4em;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.34-2\.0-omega4-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\0000350}}
@@ -229,13 +229,13 @@ input[type="submit"], .page-homepage .jp-audio .jp-type-playlist .jp-playlist .b
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.34-2\.0-omega4-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\0000386}}
   #block-boxes-facebook-page-like {
-    left: 62em;
-    top: 14em;
+    left: 67.4em;
+    top: 14.4em;
   }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.34-2\.0-omega4-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\0000390}}
   #block-boxes-youtube-subscribe {
-    left: 62.5em;
+    left: 65.5em;
     top: 12em;
   }
 
