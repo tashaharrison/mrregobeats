@@ -204,4 +204,20 @@ Drupal.behaviors.homeBanner = {
 	}
 };
 
+/**
+ * bxslider initiate
+ */
+Drupal.behaviors.bxSlider = {
+	attach: function() {
+	
+		$('.bxslider').bxSlider({
+			pager: false,
+			controls: false,
+			useCSS: false,
+			auto: true,
+		});
+	
+	}
+};
+
 })(jQuery);

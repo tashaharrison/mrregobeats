@@ -874,6 +874,31 @@ div.jp-interface {
 	}
 }
 /**************************
+	Homepage Slideshow Boxes
+***************************/
+.view-id-homepage_slide_blocks {
+	background: $dark-grey;
+	border: 3px solid $light-grey;
+	width: 23%;
+	padding: 1em 1em 1em 0;
+	position: absolute;
+	top: -82em;
+	font-family: $header-font;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+.view-display-id-block_1 {
+	top: -87em;
+	right: 8px;
+}
+/* Fix for Chrome issue with BXSlider */
+.bxslider li { 
+	min-height: 1px; min-width: 1px; 
+	&.bx-clone {
+		display: none;
+	}
+}
+/**************************
 	Category Page
 ***************************/
 .view-the-shop {
