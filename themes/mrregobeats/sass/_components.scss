@@ -877,9 +877,6 @@ div.jp-interface {
 /**************************
 	Homepage Slideshow Boxes
 ***************************/
-.front .l-content {
-	position: relative;
-}
 #block-views-homepage-slide-blocks-block {
 	background: $dark-grey;
 	border: 3px solid $light-grey;
@@ -887,6 +884,7 @@ div.jp-interface {
 	position: absolute;
 	top: 31em;
 	margin-left: 0.9em;
+	display: none;
 	header {
 		display: none;
 	}
@@ -898,13 +896,18 @@ div.jp-interface {
 	@extend #block-views-homepage-slide-blocks-block;
 	right: 0.9em;
 }
-/* Fix for Chrome issue with BXSlider */
-.bxslider li { 
-	min-height: 1px; min-width: 1px; 
-	&.bx-clone {
-		display: none;
+@include at-breakpoint($desk) {
+	.front .l-content {
+		position: relative;
+	}
+	#block-views-homepage-slide-blocks-block {
+		display: block;
+	}
+	#block-views-homepage-slide-blocks-block-1 {
+		display: block;
 	}
 }
+
 /**************************
 	Category Page
 ***************************/
