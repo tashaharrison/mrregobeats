@@ -883,19 +883,20 @@ div.jp-interface {
 #block-views-homepage-slide-blocks-block {
 	background: $dark-grey;
 	border: 3px solid $light-grey;
-	width: 23%;
-	padding: 1em 1em 1em 0;
+	padding: 0;
 	position: absolute;
-	top: 36em;
-	font-family: $header-font;
-	font-size: 0.9em;
-	line-height: 1.5em;
-	margin-left: 0.5em;
+	top: 31em;
+	margin-left: 0.9em;
+	header {
+		display: none;
+	}
+	.field-slideshow-slide {
+		height: 100% !important;
+	}
 }
 #block-views-homepage-slide-blocks-block-1 {
 	@extend #block-views-homepage-slide-blocks-block;
-	top: 34em;
-	right: 0.5em;
+	right: 0.9em;
 }
 /* Fix for Chrome issue with BXSlider */
 .bxslider li { 
