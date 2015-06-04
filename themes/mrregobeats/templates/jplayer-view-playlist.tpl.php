@@ -41,7 +41,7 @@
     </div>
     
     <div id="<?php print $player_id; ?>_playlist" class="jp-playlist">
-	<h2>Try and Buy</h2>
+	<h2>Try and Buy<br/>Beats for Sale</h2>
       <?php if ($mode == 'playlist' || $mode == 'single'): ?>
         <?php print $playlist; ?>
       <?php else: ?>
