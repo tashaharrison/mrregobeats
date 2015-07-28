@@ -27,7 +27,7 @@
 	$wrapper = entity_metadata_wrapper('commerce_product', $data);
 	$stock = $wrapper->commerce_stock->value();
 	if ($stock == 0) {
-		print 'Sold Out';
+		print 'Sold';
 	}
 	else {
 		print $output;
