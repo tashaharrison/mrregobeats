@@ -1,0 +1,1212 @@
+/*******************************************************************************
+ * _components.scss
+ *
+ * Imports more partials that contain full components (modules in SMACSS), their
+ * sub-components and modifiers.
+ *
+ * Components are discrete parts of your page that should sit within the regions
+ * of your layouts. You should try to abstract your components as much as
+ * possible to promote reuse throughout the theme. Components should be flexible
+ * enough to respond to any width and should never rely on context
+ * (e.g. .sidebar-first .component) for styling. This allows modules to be
+ * placed throughout the theme with no risk of them breaking.
+ *
+ * If you find you need to change the look of a component depending on it's
+ * context you should avoid using context based classes at all costs. Instead it
+ * is better to add another "modifier" class to the component to alter the
+ * styling. Again, this promotes reuse.
+ *
+ * Sub-components are the individual parts that make up a component. As a
+ * general rule, adding a class to target a sub-component is a much better
+ * option than using descendant selectors or element selectors. In many cases
+ * sub-components can be made more reusable by making them components in their
+ * own right, so they can then be used within other components.
+ *
+ * Almost everything that doesn't belong in base should be made a component.
+ * Here's some common examples throughout Drupal:
+ *
+ * - Blocks
+ * - Content Types - For example, you may have a generic node component that
+ *      contains sub-components for the submitted by line and links. Specific
+ *      components can then be created for each content type to style the
+ *      specifics of each. Finally, by using entity view modes you can easily
+ *      apply modifications based on the .node-[view-mode] classes.
+ * - Forms - For instance the log in form.
+ * - Views - Each views output style could be made into a component, the content
+ *       of each row should be provided my a view mode styled by it's component
+ *       CSS. Exposed filter forms, views pagers and other views elements are
+ *       also good candidates for components.
+ ******************************************************************************/
+/**************************
+	General
+***************************/
+.l-page {
+	background: $grey;
+}
+.l-header-wrapper {
+	background: $blue;
+}
+.block--views {
+	padding: 0.5em 1em;
+}
+.site-logo img {
+	max-width: 100%;
+}
+.active {
+	color: white;
+}
+/**************************
+	Page Background
+***************************/
+body {
+	background: url('../images/bg.png');
+	&.page-buy-beats {
+		background: url('../images/green-bg.png');
+	}
+	&.section-who-mr-rego-beats {
+		background: url('../images/arsenal-bg.png');
+	}
+}
+/**************************
+	IE Fixes
+***************************/
+.ie {
+	a img {
+		border: none;
+	}
+	#block-views-kpi-block-block {
+		.fieldset-legend {
+			width: 250px;
+		}
+	}
+}
+/**************************
+	System Messages
+***************************/
+.messages {
+	background-color: $dark-grey;
+	border: 3px solid $light-grey;
+}
+.messages--status, .ok {
+	color: white;
+	background-image: none;
+	position: relative;
+	&:before {
+		content: '';
+		@include spr-sprite("tick");	
+		position: absolute;
+		height: 44px;
+		width: 50px;
+		left: 0;
+		top: 0;
+	}
+}
+.messages--status, tr.ok {
+	
+}
+.messages--commerce-add-to-cart-confirmation {
+	padding: 1em;
+	left: 50%;
+	margin-left: -10% !important;
+	overflow: hidden;
+	position: absolute;
+	width: 300px;
+	z-index: 201;
+	background: $dark-grey;
+	border: 3px solid $light-grey;
+	text-align: center;
+	.added-product-title {
+		font-family: $header-font;
+	}
+	.button-wrapper {
+		padding-top: 0.8em;
+		.button {
+			cursor: pointer;
+			background: $purple;
+			color: $white;
+			border: none;
+			padding: 0.5em 1em;
+			font-size: 1em;
+			margin: 0.5em 0;
+			a:hover {
+				color: white;
+			}
+		}
+	}
+	.view-confirm-message-product-display {
+		padding-top: 0.8em;
+	}
+}
+/**************************
+	Tables
+***************************/
+table {
+	margin-bottom: 3em;
+	width: 100%;
+	a.active {
+		color: $white;
+	}
+	th {
+		background: $purple;
+		color: white;
+		padding: 0.5em 0;
+		text-align: center;
+	}
+	tr {
+		text-align: center;
+		&.odd {
+			background: $light-grey;
+		}
+		&.even {
+			background: $dark-grey;
+		}
+		td {
+			padding: 0.5em 0;
+			&.active {
+				background-color: transparent;
+			}
+		}
+	}
+}
+/**************************
+	Login Page
+***************************/
+.toboggan-unified {
+	#login-message {
+		font-family: $header-font;
+		font-size: 1.5em;
+		padding: 0.5em 0;
+	}
+	#login-links {
+		a.lt-active {
+			background: $purple;
+			color: white;
+			&:hover {
+				background: $purple;
+				color: $blue;
+			}
+		}
+		a {
+			background: $dark-grey;
+			color: white;
+			&:hover {
+				color: $purple;
+				background: $dark-grey;
+			}
+		}
+	}
+}
+/**************************
+	Header
+***************************/
+.l-branding {
+	text-align: center;
+}
+.l-header-top-wrapper {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	top: 0;
+}
+.logged-in.tab-active.desk-inactive {
+	.l-branding {
+		margin-top: 3em;
+	}
+}
+.l-header {
+	padding: 0!important;
+}
+.l-header-top {
+	background: $purple;
+}
+.l-region--header {
+	#block-boxes-social-icons {
+		float: left;
+		div {
+			float: left;
+			padding-right: 0.2em;
+		}
+		.sm_links {
+			height: 22px;
+			@include hide-text(left);
+			width: 25px;
+		}
+		.facebook {
+			@include spr-sprite("facebook");	
+		}
+		.twitter {
+			@include spr-sprite("twitter");	
+		}
+		.youtube {
+			@include spr-sprite("youtube");
+		}
+		.soundcloud {
+			@include spr-sprite("soundcloud");
+		}
+		.soundclick {
+			@include spr-sprite("soundclick");
+		}
+		.reverbnation {
+			@include spr-sprite("reverbnation");
+		}
+	}
+	#block-commerce-cart-cart {	
+		float: right;
+		padding-right: 0.5em;
+		.view-commerce-cart-block {
+			.view-content {
+				display: none;
+			}
+			.line-item-summary {
+				color: $blue;
+				margin-bottom: 0;
+				font-size: 0.8em;
+				margin-top: 0.3em;
+				.line-item-total {
+					display: inline;
+					padding-right: 0.5em;
+				}
+				.links--inline {
+					display: inline-block;
+					margin-top: 0;
+					vertical-align: bottom;
+					a {
+						color: $blue;
+						&:hover {
+							color: white;
+						}
+					}
+				}
+			}
+		}
+	}
+	#block-user-login {
+		padding-right: 0.5em;
+		a {
+			color: $blue;
+			font-weight: bold;
+			&:hover {
+				color: $blue;
+			}
+		}	
+	}
+	#block-logintoboggan-logintoboggan-logged-in {
+		@extend #block-user-login;
+	}
+}
+#block-userpoints-meter-1 {
+	h2 {
+		font-size: 0.6em;
+		margin: 0 0 0.7em 0;
+		padding: 0;
+		text-align: left;
+	}
+	.points-left {
+		background: $purple;
+		border: none;
+		height: 20px;
+	}
+	.userpoints-meter-meter-bar {
+		background: $dark-grey;
+	}
+	.points-left-wrapper {
+		border: none;
+	}
+	.points-text {
+		font-size: 0.8em;
+		text-shadow: none;
+	}
+}
+#block-userpoints-meter-2 {
+	@extend #block-userpoints-meter-1;
+}
+#block-userpoints-meter-3 {
+	@extend #block-userpoints-meter-1;
+}
+#block-userpoints-meter-4 {
+	@extend #block-userpoints-meter-1;
+}
+#block-system-main-menu {
+		.menu {
+			text-align: center;
+			padding: 0;
+			margin: 0.7em 0 0.9em;
+			a {
+				padding: 0 0.9em;
+			}
+		}
+	}
+/**************************
+	Menu
+***************************/
+.menu {
+	.leaf {
+		list-style-image: none;
+		list-style-type: none;
+		padding: 0.5em 0;
+	}
+}
+/* Responsive Menu */
+.tab-inactive {
+	#block-system-main-menu {
+		background: $purple;
+		padding: 0.5em 0;
+		font-size: 1.2em;
+		margin: 0.4em;
+		@include border-radius(5px);
+		color: $white;
+		text-align: center;
+		.menu {
+			margin: 0;
+		}
+		li.first {
+			padding-top: 1em;
+		}
+		a {
+			color: $white;
+		}
+		.menu-icon {
+			width: 95%;
+			margin: 0 auto;
+			&.close {
+				@include spr-sprite("menu");
+				height: 22px;
+			}
+			&.open {
+				@include spr-sprite("menu-close");
+				height: 22px;
+			}
+		}
+	}	
+}
+@include at-breakpoint($tab) {
+	.menu {
+		.leaf {
+			display: inline-block;
+			list-style-image: none;
+			list-style-type: none;
+			padding: 0 0.6em;
+			a {
+				font-family: $body-font;
+				font-size: 1em;
+			}
+		}
+	}
+}
+/**************************
+	Frontpage
+***************************/
+.front {
+	h1 {
+		text-align: center;
+	}
+	.l-main {
+		padding: 0;
+		.view-homepage {
+			.mrb-playlist {
+				li {
+					list-style-type: none;
+					padding: 0.1em 1em 2em;
+				}
+			}
+			.view-display-id-attachment_2 {
+				margin-bottom: 16em;
+				.views-row {
+					display: block;
+					background: $dark-grey;
+					border: 3px solid $light-grey;
+					padding: 1em;
+					margin: 1em;
+				}
+			}
+		}
+	}
+	#block-views-blog-block-1 {
+		margin-top: 2em;
+	}
+	#block-views-about-us-homepage-block-block {
+		background: $dark-grey;
+		border: 3px solid $light-grey;
+		margin: 3em 1em 1em;
+	}
+	.view-tweets {
+		.views-row {
+			border: 3px solid $dark-grey;
+			.views-field-profile-image-url {
+				float: left;
+				padding: 0.5em 1em 0.5em 0.4em;
+			}
+			.views-field-created-time {
+				display: block;
+			}
+		}
+	}
+	#block-mailchimp-signup-latest-news-offers {
+		padding: 1em;
+		text-align: center;
+		.mailchimp-newsletter-wrapper {
+			padding-top: 0.6em;
+		}
+	}
+}
+/**************************
+	Homepage Banner
+***************************/
+#block-block-1 {
+	height: 400px;
+	width: 1000px;
+	margin: 2em auto;
+	.slide {
+		height: 400px;
+		width: 900px;
+		margin: 0 auto;
+	}
+	.slide1 {
+		border-top: 30px solid $pastel-blue;
+		border-bottom: 30px solid $pastel-blue;
+		background: #0808AB;
+		text-align: center;
+		font-family: $header-font;
+		padding-top: 1em;
+		line-height: 2em;
+		height: 320px;
+	}
+	.slide2 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		img {
+			opacity: 0;
+			transition: 2s 1s opacity;
+			padding: 0.2em 1em;
+			max-height: 100px;
+			width: auto;
+			&.delay {
+				display: none;
+			}
+			&.active {
+				opacity: 1;
+			}
+		}
+	}
+	.slide3 {
+		position: relative;
+		.banner {
+			position: relative;
+		}
+		.mrbman {
+			position: absolute;
+			top: 2em;
+			left: 4em;
+		}
+		.pptext {
+			position: absolute;
+			top: 2em;
+			left: 12em;
+			font-family: $header-font;
+			line-height: 1.5em;
+			width: 700px;
+		}
+		.pplogo {
+			position: absolute;
+			top: 6em;
+			right: 19em;
+		}
+	}
+	.slide4 {
+		position: relative;
+		.banner {
+			position: relative;
+		}
+		.badges {
+			position: absolute;
+			top: 1em;
+			img {
+				padding: 0 2.2em;
+				opacity: 0;
+				transition: 2s opacity;
+				&.delay {
+					display: none;
+				}
+				&.active {
+					opacity: 1;
+				}
+			}
+		}
+		.xptext {
+			color: $black;
+			font-family: $header-font;
+			position: absolute;
+			top: 8em;
+			left: 5em;
+		}
+		.xppoints {
+			position: absolute;
+			top: 4em;
+			left: 8em;
+			li {
+				padding: 1em;
+			}
+		}
+	}
+}
+#block-views-kpi-block-block-1 {
+	.fieldset-legend {
+		font-family: $header-font;
+		color: $purple;
+		font-size: 0.9em;
+	}
+	fieldset {
+		border: none;
+		padding: 0;
+	}
+	.views-row {
+		padding: 1em 0.55em 1.5em;
+		margin: 1em 0;
+		width: 22.75%;
+		display: inline-block;
+		vertical-align: top;
+		font-size: 0.9em;
+		background: $dark-grey;
+		border: 3px solid $light-grey;
+		height: 310px;
+	}
+	ul {
+		margin: 1em 0;
+		padding-left: 2em;
+	}
+}
+.desk-inactive {
+	#block-block-1 {
+		display: none!important;
+	}
+	#block-views-kpi-block-block-1 {
+		display: none!important;
+	}
+}
+.no-js {
+	#block-block-1 {
+		display: none;
+	}
+}
+/**************************
+	The Player
+***************************/
+/* The following is resetting the module's css */
+div.jp-interface {
+	border: none;
+	background-color: transparent;
+}
+.page-homepage {
+	.jp-audio {
+		margin: 0 auto;
+		width: 288px;
+		padding-right: 1em;
+		.jp-type-playlist {
+			background: url('../images/mpc2000-player-sm.png') no-repeat 0 0;
+			color: $black;
+			font-family: $header-font;
+			height: auto;
+			width: 288px;
+			a {
+				height: 12px;
+				width: 22px;
+			}
+			.jp-play {
+				left: 166px;
+				top: 82px;
+				@include spr-sprite("play-sm");
+				&:hover {
+					@include spr-sprite("play-sm");
+				}
+			}
+			.jp-pause {
+				left: 166px;
+				top: 82px;
+				@include spr-sprite("pause-sm");
+				&:hover {
+					@include spr-sprite("pause-sm");
+				}
+			}
+			.jp-stop {
+				left: 191px;
+				top: 82px;
+				@include spr-sprite("stop-sm");
+				&:hover {
+					@include spr-sprite("stop-sm");
+				}
+			}
+			.jp-previous {
+				left: 165px;
+				top: 106px;
+				@include spr-sprite("previous-sm");
+				&:hover {
+					@include spr-sprite("previous-sm");
+				}
+			}
+			.jp-next {
+				left: 194px;
+				top: 106px;
+				@include spr-sprite("next-sm");
+				&:hover {
+					@include spr-sprite("next-sm");
+				}
+			}
+			.jp-progress {
+				display: none;
+			}
+			.jp-current-time {
+				left: 83px;
+				top: 23px;
+				font-size: 0.4em;
+			}
+			.jp-duration {
+				left: 4px;	
+				top: 33px;	
+				font-size: 0.3em;
+			}
+			.jp-playlist-current {
+				
+			}
+			.jp-playlist {
+				margin-top: 6em;
+				color: $white;
+				background: none;
+				border: none;
+				text-align: center;
+				ul {
+					padding: 0;
+				}
+				li {
+					padding: 0.5em;
+					background: $light-grey;
+					&.jp-playlist-current {
+						list-style: none;
+						background: $dark-grey;
+						.buy-button {
+							a {
+								background: $purple;
+							}
+						}
+					}
+					&:hover {
+						background: $dark-grey;
+						.buy-button {
+							a {
+								background: $purple;
+							}
+						}
+					}
+					a {
+						color: $white;
+						font-size: 0.7em;
+						padding: 0;
+					}
+				}
+				.buy-button {
+					a {
+						@extend input[type="submit"];
+						background: lighten($light-grey, 20%);
+						margin: 1em 0;
+					}
+				}
+			}
+			.jp-volume-bar {
+				top: 164px;
+				left: 47px;
+				height: 14px;
+				width: 78px;
+				background: transparent;
+			}
+			.jp-volume-bar-value {
+				background: url('../images/volume-bar-sm.png') no-repeat;
+				height: 14px;
+			}
+			.jp-mute {
+				top: 153px;
+				left: 12px;
+				@include spr-sprite("mute");
+				height: 35px;
+				width: 29px;
+			}
+			.jp-unmute {
+				top: 153px;
+				left: 12px;
+				@include spr-sprite("unmute");
+				height: 35px;
+				width: 29px;
+			}
+		}
+	}
+	&.tab-active {
+		.jp-audio {
+			width: 565px;
+			.jp-type-playlist {
+				background: url('../images/mpc2000-player.png') no-repeat 0 0;
+				height: auto;
+				width: 575px;
+				a {
+					height: 25px;
+					width: 38px;
+				}
+				.jp-play {
+					left: 334px;
+					top: 165px;
+					@include spr-sprite("play");
+					&:hover {
+						@include spr-sprite("play-hover");
+					}
+				}
+				.jp-pause {
+					left: 334px;
+					top: 165px;
+					@include spr-sprite("pause");
+					&:hover {
+						@include spr-sprite("pause-hover");
+					}
+				}
+				.jp-stop {
+					left: 382px;
+					top: 164px;
+					@include spr-sprite("stop");
+					&:hover {
+						@include spr-sprite("stop-hover");
+					}
+				}
+				.jp-previous {
+					left: 336px;
+					top: 212px;
+					@include spr-sprite("previous");
+					&:hover {
+						@include spr-sprite("previous-hover");
+					}
+				}
+				.jp-next {
+					left: 381px;
+					top: 212px;
+					@include spr-sprite("next");
+					&:hover {
+						@include spr-sprite("next-hover");
+					}
+				}
+				.jp-progress {
+					display: none;
+				}
+				.jp-current-time {
+					left: 193px;
+					top: 47px;
+					font-size: 0.64em;
+				}
+				.jp-duration {
+					left: 134px;	
+					top: 67px;	
+					font-size: 0.5em;
+				}
+				.jp-playlist-current {
+					
+				}
+				.jp-playlist {
+					margin-top: 16em;
+					text-align: left;
+					ul {
+						padding: 0;
+					}
+					li {
+						padding: 1.3em 1em 1.6em 0.6em;
+						&.jp-playlist-current {
+							a.jp-link {
+								@include spr-sprite("beats-play-hover");
+							}
+							.buy-button {
+								a {
+									background: $purple;
+									margin-left: 0;
+								}
+							}
+						}
+						&:hover {
+							background: $dark-grey;
+							a {
+								@include spr-sprite("beats-play-hover");
+							}
+							.buy-button {
+								a {
+									background: $purple;
+								}
+							}
+						}
+						a.jp-link {
+							padding: 1.5em 1em 1.5em 5.5em;
+							@include spr-sprite("beats-play");
+						}
+					}
+					.buy-button {
+						float: right;
+						margin: 0;
+					}
+				}
+				.jp-volume-bar {
+					top: 331px;
+					left: 95px;
+					height: 25px;
+					width: 156px;
+					background: transparent;
+				}
+				.jp-volume-bar-value {
+					background: url('../images/volume-bar.png') no-repeat;
+					height: 25px;
+				}
+				.jp-mute {
+					top: 325px;
+					left: 53px;
+					@include spr-sprite("mute");
+					height: 35px;
+					width: 29px;
+				}
+				.jp-unmute {
+					top: 325px;
+					left: 53px;
+					@include spr-sprite("unmute");
+					height: 35px;
+					width: 29px;
+				}
+			}
+		}
+	}
+}
+/**************************
+	Homepage Slideshow Boxes
+***************************/
+#block-views-homepage-slide-blocks-block {
+	background: $dark-grey;
+	border: 3px solid $light-grey;
+	padding: 0;
+	position: absolute;
+	top: 31em;
+	margin-left: 0.9em;
+	display: none;
+	.field-slideshow-slide {
+		height: 100% !important;
+	}
+}
+#block-views-homepage-slide-blocks-block-1 {
+	@extend #block-views-homepage-slide-blocks-block;
+	right: 0.9em;
+}
+@include at-breakpoint($desk) {
+	.front .l-content {
+		position: relative;
+	}
+	#block-views-homepage-slide-blocks-block {
+		display: block;
+	}
+	#block-views-homepage-slide-blocks-block-1 {
+		display: block;
+	}
+}
+
+/**************************
+	Category Page
+***************************/
+.view-the-shop {
+	.views-table {
+		text-align: center;
+		th {
+			background: $black;
+			font-family: $header-font;
+			font-size: 0.8em;
+			font-weight: normal;
+			padding: 1em 0;
+			text-align: center;
+		}
+		td {
+			padding: 0.5em;
+			width: 120px;
+			&.views-field-field-audio-bpm {
+				width: 80px;
+			}
+			&.views-field-title {
+				width: 350px;
+			}
+		}
+		tr {
+			&.odd {
+				background: $light-grey;
+			}
+			&.even {
+				background: $dark-grey;
+			}
+		}
+	}
+	.views-field-view-node {
+		a {
+			@extend input[type="submit"];
+			margin: 0;
+		}
+	}
+	.views-field-title {
+		text-align: left;
+	}
+	.views-exposed-form {
+		margin-bottom: 1em;
+		.views-exposed-widget .form-submit {
+			margin-top: 1em;
+		}
+	}
+	.field--name-field-audio-file {
+		margin-top: 0.5em;
+		height: 50px;
+		width: 150px;
+		float: left;
+		div.jp-interface {
+			height: 20px!important;
+		}
+		.jp-audio {
+			width: 150px!important;
+		}
+		.jp-progress {
+			display: none;
+		}
+		.jp-volume-bar {
+			top: 45px!important;
+			left: 2px!important;
+			width: 100%;
+			background: lighten($light-grey, 30%);
+			.jp-volume-bar-value {
+				background: $purple;
+			}
+		}
+		.jp-mute {
+			display: none!important;
+		}
+		.jp-current-time {
+			display: none;
+		}
+		.jp-duration {
+			display: none;
+		}
+		.jp-playlist {
+			display: none;
+		}
+		.jp-play {
+			@include spr-sprite("beats-play");
+			top: 0!important;
+			left: 0!important;
+			&:hover {
+				@include spr-sprite("beats-play-hover");
+			}
+		}
+		.jp-pause {
+			@include spr-sprite("beats-pause");
+			top: 0!important;
+			left: 0!important;
+			&:hover {
+				@include spr-sprite("beats-pause-hover");
+			}
+		}
+		.jp-stop {
+			@include spr-sprite("beats-stop");
+			width: 40px;
+			height: 40px;
+			top: 0!important;
+			left: 47px!important;
+			&:hover {
+				@include spr-sprite("beats-stop");
+			}
+		}
+	}
+	.download-beat {
+		margin-top: 1em;
+		a {
+			background: $dark-grey;
+			border: 2px solid $light-grey;
+			color: $white;
+			padding: 0.2em 0.5em;
+		}
+	}
+}
+/* Hide Download button for not logged in users */
+.not-logged-in {
+	.download-beat {
+		display: none;
+	}
+}
+#block-views-kpi-block-block {
+	.views-row {
+		display: block;
+		background: $dark-grey;
+		border: 3px solid $light-grey;
+		padding: 1em 1em 1.5em;
+		margin: 1em;
+		fieldset {
+			border: none;
+			padding: 0;
+		}
+	}
+	.views-row-1 {
+		.views-field-field-kpi-list-item {
+			padding-top: 1em;
+		}
+	}
+}
+html.js fieldset.collapsible .fieldset-legend {
+	@include spr-sprite("fieldset-opened");
+	height: 26px;
+	padding: 0.05em 0 0 2em;
+	a {
+		color: $purple;
+	}
+}
+html.js fieldset.collapsed .fieldset-legend {
+	@include spr-sprite("fieldset-closed");
+	height: 26px;
+}
+/**************************
+	Product Page
+***************************/
+.node-type-product-display {
+	@extend .page-homepage;
+	.jp-audio .jp-type-playlist {
+		height: 225px!important;
+	}
+	.jp-playlist {
+		display: none;
+	}
+	.field--label-inline .field__items,
+	.field--label-inline .field__item	{
+		margin-right: 1em;
+	}
+	.field-commerce-price {
+		clear: both;
+		background: $dark-grey;
+		border: 3px solid $light-grey;
+		padding: 1em;
+		margin: 0 auto 0.8em;
+		width: 50px;
+	}
+	.field--name-body {
+		clear: both;
+		padding-top: 0.1em;
+	}
+	.field--name-field-product-reference {
+		margin: 0 auto;
+		width: 172px;
+		input[type="submit"] {
+			margin: 0 2em;
+		}
+	}
+}
+.tab-active {
+	&.node-type-product-display {
+		.jp-audio .jp-type-playlist {
+		height: 400px!important;
+	}
+	}
+}
+.service-links {
+	ul {
+		padding: 0;
+	}
+	li {
+		display: inline-block;
+		list-style: none;
+	}
+}
+/**************************
+	The Blog
+***************************/
+.page-blog {
+	.view-blog {
+		@extend .view-the-shop;
+		.views-row {
+			display: block;
+			background: $dark-grey;
+			border: 3px solid $light-grey;
+			padding: 1em;
+			margin: 1em;
+		}
+		.field--name-field-audio-post {
+			@extend .field--name-field-audio-file;
+			float: none;
+		}
+	}
+}
+#block-views-blog-block-1 {
+	h2 {
+		text-align: left;
+	}
+	.views-row {
+		background: $light-grey;
+		padding: 0.2em 0.5em 0.3em;
+		margin-bottom: 1em;
+		.views-field-nothing {
+			@include spr-sprite("news");
+			height: 65px;
+			width: 72px;
+			float: left;
+			padding: 0.2em 0.5em;
+		}
+		h3 {
+			margin: 0.2em 0;
+		}
+		p {
+			margin: 0.2em 0;
+		}
+	}
+}
+/**************************
+	FAQs Page
+***************************/
+.node-type-faqs-page {
+	.double-field-first {
+		font-weight: bold;
+		padding: 1em 0 0.5em;
+	}
+	h3 {
+		font-size: 1.2em;
+		margin: 1.6em 0 0.1em;
+	}
+}
+/**************************
+	Cart & Checkout Pages
+***************************/
+.view-commerce-cart-form {
+	.line-item-summary {
+		margin: 1em 0.2em 1em 0;
+	}
+}
+.view-commerce-cart-summary {
+	.component-type-commerce-price-formatted-amount {
+		background: $dark-grey;
+		border: 3px solid $light-grey;
+	}
+}
+/**************************
+	User Pages
+***************************/
+.tab-inactive {
+	#login-links {
+		a {
+			display: block;
+		}
+	}
+}
+.view-user-profile {
+	.views-field-nothing {
+		text-align: center;
+	}
+	.views-field-nothing-1 {
+		background: $dark-grey;
+		border: 3px solid $light-grey;
+		padding: 0.5em;
+		ul {
+			text-align: left;
+		}
+	}
+}
+.view-commerce-license-my-files {
+	caption {
+		font-family: $header-font;
+		padding-bottom: 1em;
+	}
+}

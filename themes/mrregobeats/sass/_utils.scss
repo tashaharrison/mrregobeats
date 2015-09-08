@@ -1,0 +1,37 @@
+/*******************************************************************************
+ * _utils.scss
+ *
+ * Sass offers come very useful features, these include variables functions and
+ * mixins. Extensions such as Compass and Susy can also be used to provide extra
+ * functions and mixins to be used throughout the theme. This file acts as a
+ * single place for defining these things, which can then be accessed by
+ * importing _utils.scss where required. The following should be defined in this
+ * file:
+ * - Custom Sass mixins for the theme.
+ * - Custom Sass functions for the theme.
+ * - Overriding the default variables provided by extensions such as Compass.
+ * - Defining new variables for:
+ *      - Colors.
+ *      - Font sizes and families.
+ *      - Layout and grid sizing.
+ ******************************************************************************/
+@import "compass";
+@import "susyone";
+@import url(http://fonts.googleapis.com/css?family=Roboto|Press+Start+2P);
+@import "spr/*.png";
+
+$tab: 44em 12; // At 44em use 12 columns.
+$desk: 70em 16; // At 70em use 16 columns.
+
+$header-font: 'Press Start 2P', cursive;
+$body-font: 'Roboto', sans-serif;
+
+$blue: #2002FF;
+$purple: #D10EE3;
+$grey: #242424;
+$dark-grey: #161616;
+$light-grey: #636363;
+$white: #ffffff;
+$black: #000000;
+$green: #2C7314;
+$pastel-blue: #5555F9;

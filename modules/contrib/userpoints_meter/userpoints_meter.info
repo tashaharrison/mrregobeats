@@ -1,0 +1,14 @@
+name = Userpoints Meter
+description = Provides a block with a meter status bar
+dependencies[] = userpoints
+package = Userpoints
+core = 7.x
+
+
+
+; Information added by drupal.org packaging script on 2012-02-09
+version = "7.x-2.0"
+core = "7.x"
+project = "userpoints_meter"
+datestamp = "1328801443"
+

@@ -1,0 +1,413 @@
+/*******************************************************************************
+ * _layout.scss
+ *
+ * The layout of the major regions (usually, but not necessarily Drupal regions)
+ * that components will be placed within. Layout styles for the theme's
+ * components should not be placed here and should instead be kept with the
+ * relevant SCSS for that component.
+ ******************************************************************************/
+/**************************
+	Header
+***************************/
+.l-region--header {
+	height: 60px;
+	padding-top: 0.5em;
+	#block-user-login {	
+		float: left;
+	}
+	#block-boxes-social-icons {
+		padding-bottom: 0.5em;
+	}
+}
+.l-branding {
+	margin-top: 4.5em;
+}
+.l-region--highlighted {
+	display: none;
+}
+@include at-breakpoint($tab) {
+	.l-region--header {
+		height: 28px;
+		padding-top: 0.3em;
+		.soundclick {
+			display: block;
+		}
+		.reverbnation {
+			display: block;
+		}
+		#block-user-login {	
+			float: right;
+		}
+		#block-boxes-social-icons {
+			padding-bottom: 0;
+		}
+	}
+	#block-boxes-facebook-page-like {
+		position: absolute;
+		left: 0.7em;
+		top: 19.4em;
+	}
+	#block-boxes-youtube-subscribe {
+		position: absolute;
+		left: 0.7em;
+		top: 17em;
+	}
+	#block-user-badges-my-badges {
+		padding: 0.5em;	
+		position: absolute;
+		top: 15.5em;		
+	}
+	#block-userpoints-meter-1 {
+		position: absolute;
+		display: none;
+	}
+	.l-region--highlighted {
+		margin-bottom: 0;
+		position: relative;
+		top: -13em;
+		display: block;
+	}
+	.l-branding {
+		margin-top: 2em;
+	}
+	.logged-in {
+		#block-boxes-facebook-page-like {
+			display: none;
+		}
+		#block-boxes-youtube-subscribe {
+			display: none;
+		}
+	}
+}
+@include at-breakpoint($desk) {
+	.l-region--highlighted {
+		top: -9em;
+	}
+	#block-boxes-facebook-page-like {
+		left: 67.4em;
+		top: 14.4em;
+	}
+	#block-boxes-youtube-subscribe {
+		left: 65.5em;
+		top: 12em;
+	}
+	#block-user-badges-my-badges {
+		top: 15em;		
+	}
+	#block-userpoints-meter-1 {
+		padding-left: 0.5em;
+		top: 12em;
+		display: block;
+	}
+}
+/**************************
+	Frontpage
+***************************/
+.view-homepage {
+	margin-bottom: 2em;
+	.buy-button {
+		margin: 1em 0;
+	}
+}
+
+@include at-breakpoint($tab) {
+	.view-homepage {
+		margin-bottom: 2em;
+	}
+}
+@include at-breakpoint($desk) {
+	#block-views-blog-block-1 {
+		width: 43.03797%;
+		float: left;
+	}
+	#block-views-about-us-homepage-block-block {
+		width: 48.2%;
+		float: left;
+	}
+	.logged-in {
+		.view-homepage {
+			.view-display-id-attachment_2 {
+				.views-row-1 {
+					top: 0;
+				}
+				.views-row-2 {
+					top: 21em;
+				}
+				.views-row-3 {
+					top: 0;
+					right: 0;
+				}
+				.views-row-4 {
+					top: 21em;
+					right: 0;
+				}
+			}
+		}
+	}
+	.view-homepage {
+		.view-display-id-attachment_2 {
+			.views-row {
+				position: absolute;
+				width: 12%;
+			}
+			.views-row-1 {
+				top: 19em;
+			}
+			.views-row-2 {
+				top: 39em;
+			}
+			.views-row-3 {
+				top: 19em;
+				right: 21em;
+			}
+			.views-row-4 {
+				top: 39em;
+				right: 21em;
+			}
+		}
+	}
+}
+/**************************
+	Category Page
+***************************/
+.tab-inactive {
+	&.section-buy-beats {
+		.views-field-field-audio-length {
+			display: none;
+		}
+		.views-field-field-audio-producer {
+			@extend .views-field-field-audio-length;
+		}
+		.views-field-field-audio-bpm {
+			@extend .views-field-field-audio-length;
+		}
+		td {
+			width: 50%!important;
+		}
+	}
+}
+.desk-inactive.tab-active {
+	&.section-buy-beats {
+		td {
+			width: 250px!important;
+		}
+	}
+}
+@include at-breakpoint($desk) {
+	.section-buy-beats {
+		.view-the-shop {
+			float: left;
+			width: 70%;
+		}
+		#block-views-kpi-block-block {
+			float: left;
+			width: 30%;
+			padding: 0;
+			&.sticky {
+				position: fixed;
+				top: 0.5em;
+				right: 21.9em;
+				width: 18.5%;
+			}
+			.views-row-1 {
+				margin-top: 0;
+			}
+			.views-row {
+				margin-right: 0;
+			}
+		}
+	}
+}
+.section-exclusives {
+	@extend .section-buy-beats;
+}
+/**************************
+	Product Page
+***************************/
+.desk-inactive {
+	&.node-type-product-display {
+		.commerce-product-field-commerce-price {
+			float: left;
+			margin: 1em 3em 1em 0;
+			#edit-submit {
+				margin: 0;
+			}
+		}
+		.field--name-field-product-reference {
+			clear: both;
+			margin: 0;
+		}
+		.field--name-field-product-reference input[type="submit"] {
+			margin: 0;
+		}
+		.service-links {
+			clear: both;
+			margin-top: 0.5em;
+		}
+		#block-views-kpi-block-block {
+			clear: both;
+		}
+	}
+}
+@include at-breakpoint($desk) {
+	.node-type-product-display {
+		.field--name-field-audio-file {
+			float: left;
+			margin-right: 5%;
+			width: 50%;
+		}
+		#node-product-display-full-group-product-info {
+			float: left;
+			margin: 1.6em 0;
+			width: 45%;
+		}
+		#block-views-kpi-block-block {
+			clear: both;
+			.views-row {
+				display: inline-block;
+				width: 43.3%;
+				vertical-align: top;
+			}
+		}
+		.service-links {
+			clear: both;
+			float: right;
+			margin-top: -6em;
+		}
+		.field--name-field-product-reference {
+			width: 100%!important;
+			input[type="submit"] {
+				margin: 0!important;
+			}
+		}
+		.field-commerce-price {
+			margin: 0 0 0.8em!important;
+		}
+	}
+}
+/**************************
+	The Blog
+***************************/
+@include at-breakpoint($tab) {
+	.page-blog {
+		.view-content {
+		float: left;
+		width: 50%;
+		}
+		.attachment {
+			float: left;
+			width: 50%;
+			.view-content {
+				width: 100%;
+			}
+		}
+	}
+	.node-type-blog-post {
+		.node--blog-post {
+			float: left; 
+			margin-right: 5%;
+			width: 57.19%;
+		}
+		#block-views-blog-block-1 {
+			width: 35%;
+		}
+	}
+}
+@include at-breakpoint($desk) {
+	.page-blog {
+		.view-content {
+		width: 60%;
+		}
+		.attachment {
+			width: 40%;
+		}
+	}
+}
+/**************************
+	Contact
+***************************/
+.tab-inactive {
+	input {
+		width: 100%;
+	}
+}
+@include at-breakpoint($tab) {
+	.node--webform {
+		.field--name-body {
+			float: left;
+			width: 50%;
+			margin-right: 5%;
+		}
+		.webform-client-form {
+			float: left;
+			width: 40%;
+		}
+	}
+}
+/**************************
+	User Pages
+***************************/
+.l-region--header {
+	#block-user-badges-my-badges {
+		display: none;
+	}
+	.block--userpoints-meter {
+		display: none;
+	}
+}
+.page-user-my-beats {
+	.views-field-filesize {
+		display: none;
+	}
+	.views-field-commerce-file a {
+		font-size: 0.8em;
+	}
+	caption {
+		font-size: 0.8em;
+	}
+}
+@include at-breakpoint($tab) {
+	.view-user-profile {
+		.profile-wrapper {
+			text-align: center;
+		}
+		.xp-badges {
+			display: inline-block;
+			margin-right: 5%;	
+		}
+		.views-field-nothing-1 {
+			display: inline-block;
+		}
+	}
+	.l-region--header {
+		#block-user-badges-my-badges {
+			display: block;
+		}
+		.block--userpoints-meter {
+			display: block;
+		}
+	}
+	.page-user-my-beats {
+		.views-field-filesize {
+			display: block;
+		}
+		.views-field-commerce-file a {
+			font-size: 1em;
+		}
+		caption {
+			font-size: 1em;
+		}
+	}
+}
+/**************************
+	Tutorials View
+***************************/
+.view-tutorials {
+	text-align: center;
+}
+@include at-breakpoint($desk) {
+	.view-tutorials {
+		width: 900px;
+		margin: 0 auto;
+	}
+}

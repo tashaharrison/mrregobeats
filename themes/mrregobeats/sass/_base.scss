@@ -1,0 +1,67 @@
+/*******************************************************************************
+ * _base.scss
+
+ * Base styles define the default look for HTML and common Drupal elements.
+ *
+ * These rules will generally be made up of element selectors for HTML elements
+ * such as headings, paragraphs and lists. Common Drupal elements such as form
+ * items, collapsible fieldsets and messages should be included in this partial.
+ *
+ * The styleguide module (http://drupal.org/project/styleguide) gives you a good
+ * overview of Drupals common elements for styling. By setting a solid baseline
+ * before adding any more specific customisations you ensure that as any new
+ * features are added they will be correctly styled without any extra work.
+ ******************************************************************************/
+h1 {
+	font-family: $header-font;
+	font-size: 1.6em;
+	font-weight: normal;
+	line-height: 1.5em;
+	margin: 1em 0;
+	text-align: center;
+}	
+h2 {
+	@extend h1;
+	font-size: 1.2em;
+}
+h3 {
+	font-size: 1.1em;
+	margin: 0.2em;
+}
+body {
+	background: url('../images/bg.png');
+	color: $white;
+	font-family: $body-font;
+	letter-spacing: 0.05em;
+	margin: 0;
+}
+a {
+	color: $white;
+	text-decoration: none;
+	&:hover {
+		color: $purple;
+	}
+	&.active {
+		color: $purple;
+	}
+}
+.field--name-body img {
+	width: 100%!important;
+	height: auto!important;
+}
+input[type="submit"] {
+	font-family: $body-font;
+	cursor: pointer;
+	background: $purple;
+	color: $white;
+	border: none;
+	padding: 0.5em 1em;
+	margin: 0.5em 0.5em 0 0;
+	font-size: 1em;
+}
+/* Tabs */
+.tabs {
+	a {
+		background: $light-grey;
+	}
+}

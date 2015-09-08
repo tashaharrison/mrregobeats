@@ -1,0 +1,3 @@
+name = Empty Cart
+description = Override the empty cart message.
+core = 7.x
