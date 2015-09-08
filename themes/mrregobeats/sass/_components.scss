@@ -653,7 +653,16 @@ div.jp-interface {
 				}
 			}
 			.jp-progress {
-				display: none;
+				top: 44px;
+				left: 408px;
+				width: 128px;
+				height: 24px;
+				.jp-seek-bar {
+					background: $light-grey;
+				}
+				.jp-play-bar {
+					background: $purple;
+				}
 			}
 			.jp-current-time {
 				left: 83px;
@@ -790,7 +799,12 @@ div.jp-interface {
 					}
 				}
 				.jp-progress {
-					display: none;
+					.jp-seek-bar {
+						background: $light-grey;
+					}
+					.jp-play-bar {
+						background: $purple;
+					}
 				}
 				.jp-current-time {
 					left: 193px;
@@ -965,7 +979,14 @@ div.jp-interface {
 			width: 150px!important;
 		}
 		.jp-progress {
-			display: none;
+			top: 45px!important;
+			height: 5px!important;
+			.jp-seek-bar {
+				background: lighten($light-grey, 30%);
+			}
+			.jp-play-bar {
+				background: $purple;
+			}
 		}
 		.jp-volume-bar {
 			top: 45px!important;
