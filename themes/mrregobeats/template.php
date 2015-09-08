@@ -14,6 +14,11 @@
 drupal_add_js (drupal_get_path('theme','mrregobeats') .'/js/script.js');
 drupal_add_js (drupal_get_path('theme','mrregobeats') .'/js/waypoints.min.js');
 drupal_add_js (drupal_get_path('theme','mrregobeats') .'/js/bxslider/dist/jquery.bxslider.min.js');
+<<<<<<< HEAD
+=======
+drupal_add_js (drupal_get_path('theme','mrregobeats') .'/js/jquery.fitvids.min.js');
+drupal_add_js (drupal_get_path('theme','mrregobeats') .'/js/f.js');
+>>>>>>> 922063e14b63c78732d6a0c43d9e606dc49b351a
 
  
 include_once(drupal_get_path('module', 'jplayer') .'/includes/jplayer.theme.inc');

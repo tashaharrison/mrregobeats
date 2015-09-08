@@ -566,6 +566,24 @@ input[type="submit"], .page-homepage .jp-audio .jp-type-playlist .jp-playlist .b
     font-size: 1em;
   }
 }
+<<<<<<< HEAD
+=======
+/**************************
+	Tutorials View
+***************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.34-2\.0-omega4-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\00003405}}
+.view-tutorials {
+  text-align: center;
+}
+
+@media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4820488215\/static\/spirelight-commerce-7\.34-2\.0-omega4-d\.002\/profiles\/mrregobeats\/themes\/mrregobeats\/sass\/_layout\.scss}line{font-family:\00003409}}
+  .view-tutorials {
+    width: 900px;
+    margin: 0 auto;
+  }
+}
+>>>>>>> 922063e14b63c78732d6a0c43d9e606dc49b351a
 /*******************************************************************************
  * _components.scss
  *

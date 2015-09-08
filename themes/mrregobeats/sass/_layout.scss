@@ -398,4 +398,20 @@
 			font-size: 1em;
 		}
 	}
+<<<<<<< HEAD
 }
+=======
+}
+/**************************
+	Tutorials View
+***************************/
+.view-tutorials {
+	text-align: center;
+}
+@include at-breakpoint($desk) {
+	.view-tutorials {
+		width: 900px;
+		margin: 0 auto;
+	}
+}
+>>>>>>> 922063e14b63c78732d6a0c43d9e606dc49b351a
