@@ -907,6 +907,26 @@ div.jp-interface {
 	@extend #block-views-homepage-slide-blocks-block;
 	right: 0.9em;
 }
+#block-views-homepage-slide-blocks-block-3 {
+	margin-left: 0.9em;
+	display: none;
+	position: absolute;
+	top: 65em;
+	margin-left: 0.9em;
+	padding: 0;
+	.field--name-field-hp-slide-image {
+		img {
+			margin-bottom: 12.4em;
+			background: $dark-grey;
+			border: 3px solid $light-grey;
+			padding: 0;
+		}
+	}
+}
+#block-views-homepage-slide-blocks-block-2 {
+	@extend #block-views-homepage-slide-blocks-block-3;
+	right: 0.9em;
+}
 @include at-breakpoint($desk) {
 	.front .l-content {
 		position: relative;
@@ -915,6 +935,12 @@ div.jp-interface {
 		display: block;
 	}
 	#block-views-homepage-slide-blocks-block-1 {
+		display: block;
+	}
+	#block-views-homepage-slide-blocks-block-2 {
+		display: block;
+	}
+	#block-views-homepage-slide-blocks-block-3 {
 		display: block;
 	}
 }
